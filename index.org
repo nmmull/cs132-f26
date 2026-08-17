@@ -13,9 +13,9 @@ Crovella]].
 * Links
 + Course Manual
 + Course Workbook
-+ Course Repository
++ [[https://github.com/nmmull/cs132-f26][Course Repository]]
 + [[https://piazza.com/class/msxa4pkcku23vd][Piazza]]
-+ Gradescope
++ [[https://www.gradescope.com/courses/1353969][Gradescope]] (Entry Code: YB3RRX)
 # + Programming Resources: [[https://www.python.org][Python]], [[https://numpy.org][NumPy]], [[https://scipy.org][SciPy]], [[https://matplotlib.org][Matplotlib]], [[https://scikit-learn.org/stable/][scikit-learn]], [[https://networkx.org][NetworkX]]
 * Schedule (Compact)
 |-------+----------------------------------------+------------------------------------------|
@@ -115,8 +115,7 @@ Piazza./
   + row operations and row equivalence
 + Learning Objectives:
   + Recall the process of solving simultaneous linear equations.  You
-    should be able to solve a system with ~3-4 equations and 3-4
-    unknowns by hand.
+    should be able to solve a linear system in 2-4 variables by hand.
   + Begin the formal study of linear systems, both geometrically (as
     collections of hyperplanes) and algebraically (as matrices that
     can be operated on).
