@@ -14,7 +14,7 @@ Crovella]].
 + Course Manual
 + Course Workbook
 + Course Repository
-+ Piazza
++ [[https://piazza.com/class/msxa4pkcku23vd][Piazza]]
 + Gradescope
 # + Programming Resources: [[https://www.python.org][Python]], [[https://numpy.org][NumPy]], [[https://scipy.org][SciPy]], [[https://matplotlib.org][Matplotlib]], [[https://scikit-learn.org/stable/][scikit-learn]], [[https://networkx.org][NetworkX]]
 * Schedule (Compact)
