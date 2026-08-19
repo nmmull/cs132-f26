@@ -14,7 +14,7 @@ Crovella]].
 + Course Manual
 + Course Workbook
 + [[https://github.com/nmmull/cs132-f26][Course Repository]]
-+ [[https://piazza.com/class/msxa4pkcku23vd][Piazza]]
++ [[https://piazza.com/bu/fall2026/cascs132/home][Piazza]]
 + [[https://www.gradescope.com/courses/1353969][Gradescope]] (Entry Code: YB3RRX)
 # + Programming Resources: [[https://www.python.org][Python]], [[https://numpy.org][NumPy]], [[https://scipy.org][SciPy]], [[https://matplotlib.org][Matplotlib]], [[https://scikit-learn.org/stable/][scikit-learn]], [[https://networkx.org][NetworkX]]
 * Schedule (Compact)
