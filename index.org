@@ -12,7 +12,7 @@ Crovella]].
 
 * Links
 + Course Manual
-+ Course Workbook
++ [[file:workbook/v1-0.pdf][Course Workbook]]
 + [[https://github.com/nmmull/cs132-f26][Course Repository]]
 + [[https://piazza.com/bu/fall2026/cascs132/home][Piazza]]
 + [[https://www.gradescope.com/courses/1353969][Gradescope]] (Entry Code: YB3RRX)
@@ -102,11 +102,13 @@ Piazza./
 + Title: Solving Linear Systems
 + Reading:
   + Required:
+    + [[file:install.org][Installation Guide]]
     + Geometric Algorithms (GA): [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L01LinearEquations.html][Linear Equations]]
     + Course Notes (CN): [[https://nmmull.github.io/lecture-notes/linear-algebra/linear-equations/notes.html][Linear Equations]]
   + Optional:
     + Interactive Linear Algebar (ILA) 1.1: [[https://textbooks.math.gatech.edu/ila/systems-of-eqns.html][Systems of Linear Equations]]
     + Linear Algebra and its Applications (LAA) 1.1: Systems of Linear Equations
+    + Wallace Stevens: [[https://www.poetryfoundation.org/poems/43429/disillusionment-of-ten-oclock][Disillusionment of Ten O’Clock]]
 + Topics:
   + systems of linear equations
   + solution sets and consistency

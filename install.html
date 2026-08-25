@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-08-25 Tue 11:36 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Installation Guide</title>
+<meta name="author" content="Nathan" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id="org-div-home-and-up">[<a href="index.html">back</a>]</div><div id="content" class="content">
+<h1 class="title">Installation Guide</h1>
+<p>
+The following is a short installation guide for this course.  We'll
+generally be assuming access to a unix-style command line.
+</p>
+
+<blockquote>
+<p>
+<b>Note:</b> In the long run, if you're a Windows user, I recommend setting
+up a <a href="https://learn.microsoft.com/en-us/windows/wsl/install">WSL environment</a>.  This give you a Linux subsystem that'll make
+other CS courses go a lot smoother (in my opinion).  If you don't do
+this (e.g., if you want to work directly in PowerShell) then we cannot
+guarantee we'll able to troubleshoot issues you might run into.
+</p>
+</blockquote>
+<div id="outline-container-org0ca7f6c" class="outline-2">
+<h2 id="org0ca7f6c">Setting Things Up</h2>
+<div class="outline-text-2" id="text-org0ca7f6c">
+<ol class="org-ol">
+<li><p>
+Install the latest release of python from
+<a href="https://www.python.org">https://www.python.org</a>. Follow the "Downloads" tab to an installer
+for your operating system.  After doing this, you should open up a
+terminal and run the command
+</p>
+<div class="org-src-container">
+<pre class="src src-none">python3
+</pre>
+</div>
+<p>
+on the command line to open in interactive Python REPL
+(Read-Eval-Print-Loop) to verify that everything was set up
+correctly.  You can then type CTL-D to exit the REPL.
+</p></li>
+<li><p>
+The above installation includes a program called `pip3`, which is a
+package manager for Python. run the following command:
+</p>
+<div class="org-src-container">
+<pre class="src src-none">pip3 install sympy numpy scipy matplotlib networkx scikit-learn
+</pre>
+</div>
+<p>
+This will install all the libraries you need for this course.
+</p></li>
+<li>(Optional) Install <a href="https://visualstudio.microsoft.com/downloads/">VSCode</a>.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org3fe6362" class="outline-2">
+<h2 id="org3fe6362">Working on Python Code</h2>
+<div class="outline-text-2" id="text-org3fe6362">
+<ol class="org-ol">
+<li>Open up a <code>file_name.py</code> file in your favorite editor and edit the code.</li>
+<li><p>
+In a terminal, navigate to the directory where your Python file is, e.g.,
+</p>
+<div class="org-src-container">
+<pre class="src src-none">cd path/to/directory/where/file/is
+</pre>
+</div></li>
+<li><p>
+Run the command
+</p>
+<div class="org-src-container">
+<pre class="src src-none">python3 file_name.py
+</pre>
+</div>
+<p>
+to evaluate the code in that file.  If you want to evaluate the
+file and then go into an interactive Python REPL, then run
+</p>
+<div class="org-src-container">
+<pre class="src src-none">python3 -i file_name.py
+</pre>
+</div></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org9ca2e81" class="outline-2">
+<h2 id="org9ca2e81">Tips</h2>
+<div class="outline-text-2" id="text-org9ca2e81">
+<ul class="org-ul">
+<li><p>
+You may want to brush up on basic command line usage. Important
+things to know:
+</p>
+<ul class="org-ul">
+<li><code>ls</code> shows whats in your current directory</li>
+<li><code>pwd</code> shows the path of the directory you're currently in</li>
+<li><code>cd path/to/directory_name</code> go to the directory given by the path</li>
+<li><code>rm file</code> delete file (this cannot be undone! it's not the same as
+putting in the Trash folder)</li>
+<li><code>rm -r directory_name</code> delete a directory and everything in it
+(this cannot be undone!)</li>
+<li><code>touch file_name</code> create an empty file called <code>file_name</code></li>
+<li><code>mkdir dir_name</code> create an empty directory called <code>dir_name</code></li>
+</ul>
+<p>
+<b>(Become comfortable with these commands!)</b>
+</p></li>
+<li><p>
+I generally recommend putting all your code for this course in a
+single directory in, for example, your Documents folder.  You can run the command
+</p>
+<div class="org-src-container">
+<pre class="src src-none">mkdir -p ~/Documents/CS132-F24
+</pre>
+</div>
+<p>
+to create this directory.  This is equivalent to going to the
+Documents folder (in Finder for MacOS) and creating a new folder.
+</p></li>
+<li>Setting up a machine takes some time (and some tears).  But please
+understand that this is an incredibly important part of being a
+computer scientist. <i>You have to know how to set up your coding
+environment.</i></li>
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>

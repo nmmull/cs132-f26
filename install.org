@@ -1,0 +1,75 @@
+#+title: Installation Guide
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
+#+OPTIONS: html-style:nil H:2 toc:nil num:nil
+#+HTML_LINK_HOME: index.html
+The following is a short installation guide for this course.  We'll
+generally be assuming access to a unix-style command line.
+
+#+begin_quote
+*Note:* In the long run, if you're a Windows user, I recommend setting
+up a [[https://learn.microsoft.com/en-us/windows/wsl/install][WSL environment]].  This gives you a Linux subsystem that'll make
+other CS courses go a lot smoother (in my opinion).  If you don't do
+this (e.g., if you want to work directly in PowerShell) then we cannot
+guarantee we'll be able to troubleshoot issues you might run into.
+#+end_quote
+
+
+* Setting Things Up
+1. Install the latest release of python from
+   [[https://www.python.org][https://www.python.org]]. Follow the "Downloads" tab to an installer
+   for your operating system.  After doing this, you should open up a
+   terminal and run the command
+   #+begin_src none
+     python3
+   #+end_src
+   on the command line to open an interactive Python REPL
+   (Read-Eval-Print-Loop) to verify that everything was set up
+   correctly.  You can then type CTL-D to exit the REPL.
+2. The above installation includes a program called `pip3`, which is a
+   package manager for Python. Run the following command:
+   #+begin_src none
+     pip3 install sympy numpy scipy matplotlib networkx scikit-learn
+   #+end_src
+   This will install all the libraries you need for this course.
+3. (Optional) Install [[https://visualstudio.microsoft.com/downloads/][VSCode]].
+
+* Working on Python Code
+1. Open up a ~file_name.py~ file in your favorite editor and edit the code.
+2. In a terminal, navigate to the directory where your Python file is, e.g.,
+   #+begin_src none
+     cd path/to/directory/where/file/is
+   #+end_src
+3. Run the command
+   #+begin_src none
+     python3 file_name.py
+   #+end_src
+   to evaluate the code in that file.  If you want to evaluate the
+   file and then go into an interactive Python REPL, then run
+   #+begin_src none
+     python3 -i file_name.py
+   #+end_src
+
+* Tips
++ You may want to brush up on basic command line usage. Important
+  things to know:
+  + ~ls~ shows what's in your current directory
+  + ~pwd~ shows the path of the directory you're currently in
+  + ~cd path/to/directory_name~ go to the directory given by the path
+  + ~rm file~ delete file (this cannot be undone! it's not the same as
+    putting in the Trash folder)
+  + ~rm -r directory_name~ delete a directory and everything in it
+    (this cannot be undone!)
+  + ~touch file_name~ create an empty file called ~file_name~
+  + ~mkdir dir_name~ create an empty directory called ~dir_name~
+ *(Become comfortable with these commands!)*
++ I generally recommend putting all your code for this course in a
+  single directory in, for example, your Documents folder.  You can run the command
+  #+begin_src none
+    mkdir -p ~/Documents/cs132-f26
+  #+end_src
+  to create this directory.  This is equivalent to going to the
+  Documents folder (in Finder for MacOS) and creating a new folder.
++ Setting up a machine takes some time (and some tears).  But please
+  understand that this is an incredibly important part of being a
+  computer scientist. /You have to know how to set up your coding
+  environment./
