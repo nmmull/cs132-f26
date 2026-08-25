@@ -11,7 +11,7 @@ on the material for) the version of the course taught by [[https://www.cs.bu.edu
 Crovella]].
 
 * Links
-+ Course Manual
++ [[file:course-manual.pdf][Course Manual]]
 + [[file:workbook/v1-0.pdf][Course Workbook]]
 + [[https://github.com/nmmull/cs132-f26][Course Repository]]
 + [[https://piazza.com/bu/fall2026/cascs132/home][Piazza]]
@@ -135,8 +135,17 @@ Piazza./
     + ILA 1.2: [[https://textbooks.math.gatech.edu/ila/row-reduction.html][Row Reduction]]
     + ILA 1.3: [[https://textbooks.math.gatech.edu/ila/parametric-form.html][Parametric Form]]
     + LAA 1.2: Row Reduction and Echelon Forms
+    + [[https://link.springer.com/book/10.1007/978-3-030-80795-5][Structural Geology]] 9: Faults
 + Topics:
+  + echlon forms and RREFs
+  + pivot columns and positions
+  + free and basic variables
+  + general form solutions
 + Learning Objectives:
+  + Understand how many solutions a linear system can have, and how
+    those solutions can "look".
+  + Determine how to represent solutions of a linear system in
+    general, and how to "read off" solutions from an RREF.
 ** 09-10 THU (Lecture)
 + Week: 2
 + Title: Gaussian Elimination
@@ -144,8 +153,13 @@ Piazza./
   + Required:
     + GA: [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L03RowReductions.html][Gaussian Elimination]]
     + CN: [[https://nmmull.github.io/lecture-notes/linear-algebra/gaussian-elimination/notes.html][Gaussian Elimination]]
+    + [[https://pubs.usgs.gov/publication/pp1348][The geologic history of the Moon]] 5: Basin Materials──Orientale
 + Topics:
+  + forward elimination and back substitution (revisited)
+  + floating point numbers and IEEE-754
 + Learning Objectives:
+  + Make forward elimination and backwards substitution algorithmic.
+  + Get a sense of the errors that can occur when
 ** 09-14 MON (Lab 1)
 + Week: 3
 + Title: Introduction to NumPy
@@ -170,6 +184,7 @@ Piazza./
   + Optional:
     + ILA 2.3: [[https://textbooks.math.gatech.edu/ila/matrix-equations.html][Matrix Equations]]
     + LAA 1.4: The Matrix Equation Ax = b
+    + Edsger W. Dijkstra: [[https://www.cs.utexas.edu/~EWD/ewd12xx/EWD1209.PDF][Why American Computing Science seems incurable]]
 + Topics:
 + Learning Objectives:
 ** 09-21 MON (Quiz 1)
