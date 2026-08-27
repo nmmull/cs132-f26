@@ -173,6 +173,7 @@ Piazza./
     + ILA 2.1: [[https://textbooks.math.gatech.edu/ila/vectors.html][Vectors]]
     + ILA 2.2: [[https://textbooks.math.gatech.edu/ila/spans.html][Vector Equations and Spans]]
     + LAA 1.3: Vector Equations
+    + Michael A. Davis: [[https://digitalcommons.kennesaw.edu/thegeographicalbulletin/vol63/iss2/1/][An Overview of Environmental Themes in the Video Game Industry]]
 + Topics:
 + Learning Objectives:
 ** 09-17 THU (Workshop)
@@ -200,17 +201,19 @@ Piazza./
     + ILA 2.4: [[https://textbooks.math.gatech.edu/ila/solution-sets.html][Solution Sets]]
     + ILA 2.5: [[https://textbooks.math.gatech.edu/ila/linear-independence.html][Linear Independence]]
     + LAA 1.7: Linear Independence
+    + D. B. Newell et. al: [[https://iopscience.iop.org/article/10.1088/1681-7575/aa950a][The CODATA 2017 values of $h$, $e$, $k$, and $N_A$ for the revision of the SI]]
 + Topics:
 + Learning Objectives:
 ** 09-24 THU (Lecture)
 + Week: 4
 + Title: Linear Transformations
 + Reading:
-  + Required:
+  + Required:a
     + GA: [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L07LinearTransformations.html][Linear Transformations]]
   + Optional:
     + ILA 3.1: [[https://textbooks.math.gatech.edu/ila/matrix-transformations.html][Matrix Transformations]]
     + LAA 1.8: Introduction to Linear Transformations
+    + George Saunders: [[https://www.theparisreview.org/blog/2025/03/24/she-who-helps-see/?src=longreads][She Who Helps See]]
 + Topics:
 + Learning Objectives:
 ** 09-28 MON (Lab 2)
@@ -227,6 +230,8 @@ Piazza./
     + ILA 3.2: [[https://textbooks.math.gatech.edu/ila/one-to-one-onto.html][One-to-One and Onto Transformations]]
     + ILA 3.3: [[https://textbooks.math.gatech.edu/ila/linear-transformations.html][Linear Transformations]]
     + LAA 1.9: The Matrix of a Linear Transformation
+    + Guangchao Wang & Chen Ji: [[https://link.springer.com/article/10.1007/s00407-025-00357-5][An interpretation of Yi Xing’s (Tang
+      dynasty) star chart: ecliptic geometry and cosmological thinking]]
 + Topics:
 + Learning Objectives:
 ** 10-01 THU (Workshop)
@@ -238,6 +243,7 @@ Piazza./
   + Optional:
     + ILA 3.4: [[https://textbooks.math.gatech.edu/ila/matrix-multiplication.html][Matrix Multiplication]]
     + LAA 2.1: Matrix Operations
+    + Rebecca Burditt: [[https://online.ucpress.edu/gastronomica/article/26/1/73/216809/Sweet-RuinCakes-and-the-Visual-Culture-of-Anxiety][Sweet Ruin: Cakes and the Visual Culture of Anxiety, 1945–1960]]
 + Topics:
 + Learning Objectives:
 ** 10-05 MON (Quiz 2)
@@ -254,6 +260,7 @@ Piazza./
     + ILA 3.6: [[https://textbooks.math.gatech.edu/ila/invertible-matrix-thm.html][The Invertible Matrix Theorem]]
     + LAA 2.2: The Inverse of a Matrix
     + LAA 2.3: Characterizations of Invertible Matrices
+    + Graham Priest: [[https://grahampriest.net/publications/papers/#1979][A Note on the Sorites Paradox]]
 + Topics:
 + Learning Objectives:
 ** 10-08 THU (Lecture)
@@ -264,6 +271,7 @@ Piazza./
     + GA: [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L12MatrixFactorizations.html][LU Factorization]]
   + Optional:
     + LAA 2.5: Matrix Factorizations
+    + John Berryman: [[https://www.poetryfoundation.org/poems/47534/dream-song-14][Dream Song 14]]
 + Topics:
 + Learning Objectives:
 ** 10-13 TUE (Midterm Review)
@@ -304,6 +312,7 @@ Piazza./
     + LAA 4.1: Vector Spaces and Subspaces
     + LAA 4.2: Null Spaces, Column Spaces, and Linear Transformations
     + LAA 4.3: Linearly Independent Sets: Bases
+    + Edwin Abbott Abbott: [[https://www.gutenberg.org/ebooks/45506][Flatland: A Romance of Many Dimensions]] (§1-7)
 + Topics:
 + Learing Objectives:
 ** 10-29 THU (Workshop)
@@ -320,6 +329,7 @@ Piazza./
     + LAA 4.5: Dimension of a Subspace
     + LAA 4.6: Rank
     + LAA 4.7: Change of Basis
+    + Edwin Abbott Abbott: [[https://www.gutenberg.org/ebooks/45506][Flatland: A Romance of Many Dimensions]] (§8-14)
 + Topics:
 + Learning Objectives:
 ** 11-02 MON (Lab 4)
@@ -334,6 +344,7 @@ Piazza./
   + Optional:
     + ILA 5.1: [[https://textbooks.math.gatech.edu/ila/eigenvectors.html][Eigenvalues and Eigenvectors]]
     + LAA 5.1: Eigenvalues and Eigenvectors
+    + Edwin Abbott Abbott: [[https://www.gutenberg.org/ebooks/45506][Flatland: A Romance of Many Dimensions]] (§15-22)
 + Topics:
 + Learning Objectices:
 ** 11-05 THU (Lecture)
@@ -382,6 +393,7 @@ Piazza./
     + ILA 6.1: [[https://textbooks.math.gatech.edu/ila/dot-product.html][Dot Products and Orthogonality]]
     + ILA 6.2: [[https://textbooks.math.gatech.edu/ila/orthogonal-complements.html][Orthogonal Complements]]
     + LAA 6.1: Inner Product, Length, and Orthogonality
+    + Samuel Beckett: Waiting for Godot (Act I)
 + Topics:
 + Learning Objectives:
 ** 11-19 THU (Workshop)
@@ -396,6 +408,7 @@ Piazza./
     + LAA 6.2: Orthogonal Sets
     + LAA 6.3: Orthogonal Projections
     + LAA 6.4: The Gram-Schmidt Process
+    + Samuel Beckett: Waiting for Godot (Act II)
 + Topics:
 + Learning Objectives:
 ** 11-23 MON (Lab 5)
