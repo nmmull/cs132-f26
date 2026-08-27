@@ -5,10 +5,10 @@
 
 -----
 
-*(UNDER CONSTRUCTION)* CS132 is an introduction to linear algebra with
-an emphasis on applications in computer science. It's based heavily on
-(and depends on the material for) the version of the course taught by
-[[https://www.cs.bu.edu/fac/crovella/][Mark Crovella]].
+CS132 is an introduction to linear algebra with an emphasis on
+applications in computer science. It's based heavily on (and depends
+on the material for) the version of the course taught by [[https://www.cs.bu.edu/fac/crovella/][Mark
+Crovella]].
 
 * Links
 + [[file:course-manual.pdf][Course Manual]]
@@ -42,7 +42,7 @@ an emphasis on applications in computer science. It's based heavily on
 |-------+----------------------------------------+------------------------------------------+---|
 | [[*10-05 MON (Quiz 2)][10-05]] | Quiz 2                                 |                                          |   |
 | [[*10-06 TUE (Lecture)][10-06]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L10MatrixInverse.html][Matrix Inverses]]                        |                                          |   |
-| 10-07 |                                        | Last day to drop without a "W"           |   |
+| 10-07 |                                        | Last day to drop w/o a "W"               |   |
 | [[*10-08 THU (Lecture)][10-08]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L12MatrixFactorizations.html][LU Factorization]]                       | A5 due                                   |   |
 |-------+----------------------------------------+------------------------------------------+---|
 | 10-12 | *No Lab*                               | Indigenous People's Day                  |   |
@@ -90,8 +90,10 @@ an emphasis on applications in computer science. It's based heavily on
 #+end_export
 * Course Staff
 + Instructors: [[https://cs-people.bu.edu/edchien/][Ed Chien]] and [[https://nmmull.github.io][Nathan Mull]]
-+ Teaching Fellows:
-+ Course Assistants:
++ Teaching Fellow: [[https://erickjb.com][Erick Jimenez Berumen]]
++ Teaching Assistant: Gor Matcakian
++ Course Assistants: Mohnish Shridhar and Kush Zingade
+
 
 /Do not contact course staff directly except in extenuating
 circumstances. If you have course-related questions/concerns, post on
@@ -106,9 +108,9 @@ Piazza./
     + Geometric Algorithms (GA): [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L01LinearEquations.html][Linear Equations]]
     + Course Notes (CN): [[https://nmmull.github.io/lecture-notes/linear-algebra/linear-equations/notes.html][Linear Equations]]
   + Optional:
-    + Interactive Linear Algebar (ILA) 1.1: [[https://textbooks.math.gatech.edu/ila/systems-of-eqns.html][Systems of Linear Equations]]
+    + Interactive Linear Algebra (ILA) 1.1: [[https://textbooks.math.gatech.edu/ila/systems-of-eqns.html][Systems of Linear Equations]]
     + Linear Algebra and its Applications (LAA) 1.1: Systems of Linear Equations
-    + Wallace Stevens: [[https://www.poetryfoundation.org/poems/43429/disillusionment-of-ten-oclock][Disillusionment of Ten O’Clock]]
+    + Wallace Stevens: [[https://www.poetryfoundation.org/poems/43429/disillusionment-of-ten-oclock][Disillusionment of Ten O'Clock]]
 + Topics:
   + systems of linear equations
   + solution sets and consistency
@@ -137,13 +139,13 @@ Piazza./
     + LAA 1.2: Row Reduction and Echelon Forms
     + [[https://link.springer.com/book/10.1007/978-3-030-80795-5][Structural Geology]] 1: Introduction
 + Topics:
-  + echlon forms and RREFs
+  + echelon forms and RREFs
   + pivot columns and positions
   + free and basic variables
   + general form solutions
 + Learning/Teaching Objectives:
-  + Understand how many solutions a linear system can have, any why
-  + Understand how the solutions solutions of a linear system "look"
+  + Understand how many solutions a linear system can have, and why
+  + Understand how the solutions of a linear system "look"
   + See how to represent solutions of a linear system
   + Learn how to "read off" solutions from an RREF
 ** 09-10 THU (Lecture)
@@ -163,6 +165,7 @@ Piazza./
     floating-point numbers
 + Notes:
   + Assignment 2 released
+  + Assignment 1 due
 ** 09-14 MON (Lab 1)
 + Week: 3
 + Title: Introduction to NumPy
@@ -208,6 +211,7 @@ Piazza./
   + Introduce the algebra of matrices and vectors
 + Notes:
   + Assignment 3 released
+  + Assignment 2 due
 ** 09-21 MON (Quiz 1)
 + Week: 4
 + Topics:
@@ -244,7 +248,7 @@ Piazza./
     + John Berryman: [[https://www.poetryfoundation.org/poems/47534/dream-song-14][Dream Song 14]]
 + Topics:
   + general transformations
-  + domains, codomains, images, rancges
+  + domains, codomains, images, ranges
   + matrix transformation
   + linearity
 + Learning/Teaching Objectives:
@@ -255,6 +259,7 @@ Piazza./
     example of a linear transformation)
 + Notes:
   + Assignment 4 released
+  + Assignment 3 due
 ** 09-28 MON (Lab 2)
 + Week: 5
 + Title: Computer-Solving Equations (I)
@@ -302,12 +307,13 @@ Piazza./
     transformations
 + Notes:
   + Assignment 5 released
+  + Assignment 4 due
 ** 10-05 MON (Quiz 2)
 + Week: 6
 + Topics:
 ** 10-06 TUE (Lecture)
 + Week: 6
-+ Title: Matrix Inverse
++ Title: Matrix Inverses
 + Reading:
   + Required:
     + GA: [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L10MatrixInverse.html][The Inverse of a Matrix]]
@@ -342,12 +348,16 @@ Piazza./
 + Learning/Teaching Objectives:
   + Discuss matrix factorization in general as a way to "get more
     information" about a matrix
-  + Look at the LU factorization as a faster way of solving the
+  + Look at the LU factorization as a faster way of solving
     multiple matrix equations (over the same matrix)
++ Notes:
+  + Assignment 5 due
 ** 10-13 TUE (Midterm Review)
 + Week: 7
 ** 10-15 THU (Midterm 1)
 + Week: 7
++ Notes:
+  + Assignment 6 released
 ** 10-19 MON (Lab 3)
 + Week: 8
 + Title: Computer-Solving Equations (II)
@@ -379,6 +389,18 @@ Piazza./
   + Optional:
     + LAA 2.7: Applications to Computer Graphics
     + Mary Shelley: [[https://www.gutenberg.org/ebooks/84][Frankenstein; or, the Modern Prometheus]] (ch. 16-20)
++ Topics:
+  + wireframe objects
+  + homogeneous coordinates
+  + perspective projections
++ Learning/Teaching Objectives:
+  + Discuss the relationship between linear algebra and computer
+    graphics, in particular the use of linear transformations and
+    perspective transformations for rendering images of 3D objects on
+    a 2D screen
+  + Have a bit of fun with linear algebra
++ Notes:
+  + Assignment 7 released
 ** 10-26 MON (Quiz 3)
 + Week: 9
 + Topics:
@@ -395,7 +417,16 @@ Piazza./
     + LAA 4.3: Linearly Independent Sets: Bases
     + Mary Shelley: [[https://www.gutenberg.org/ebooks/84][Frankenstein; or, the Modern Prometheus]] (ch. 21-24)
 + Topics:
-+ Learing Objectives:
+  + subspaces
+  + column space and null space
+  + bases
++ Learning/Teaching Objectives:
+  + Introduce subspaces and bases as a way to think more generally
+    about space
+  + Extend our intuitions about planes in $\mathbb R^3$ to subspaces
+    in $\mathbb R^n$
+  + Connect subspaces to matrices and solving systems of linear
+    equations
 ** 10-29 THU (Workshop)
 + Week: 9
 + Title: Dimension and Rank
@@ -412,13 +443,24 @@ Piazza./
     + LAA 4.7: Change of Basis
     + Adriana Craciun: [[https://online.ucpress.edu/ncl/article/65/4/433/66637/Writing-the-Disaster-Franklin-and-Frankenstein][Writing the Disaster: Franklin and Frankenstein]]
 + Topics:
+  + coordinate systems and change of bases
+  + dimension and rank
+  + rank-nullity theorem
 + Learning/Teaching Objectives:
+  + Introduce dimension as a way of quantifying how "large" a span is
+  + Learn techniques for finding bases for the column space and the
+    null space of a matrix
+  + Relate the dimension of the column space and the null space of a
+    matrix
++ Notes:
+  + Assignment 8 released
+  + Assignment 7 due
 ** 11-02 MON (Lab 4)
 + Week: 10
 + Title: Graphics
 ** 11-03 TUE (Lecture)
 + Week: 10
-+ Title: Eigenvalues and Eigenvalues
++ Title: Eigenvalues and Eigenvectors
 + Reading:
   + Required:
     + GA: [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L16Eigenvectors.html][Eigenvalues and Eigenvectors]]
@@ -427,7 +469,14 @@ Piazza./
     + LAA 5.1: Eigenvalues and Eigenvectors
     + Edwin Abbott Abbott: [[https://www.gutenberg.org/ebooks/45506][Flatland: A Romance of Many Dimensions]] (§1-7)
 + Topics:
-+ Learning/Teaching Objectices:
+  + eigenvalues and eigenvectors
+  + eigenspaces and eigenbases
+  + linear dynamical systems and closed form solutions
++ Learning/Teaching Objectives:
+  + Introduce eigenvectors as as way of thinking about vectors which
+    are "just stretched" by a matrix
+  + Learn how to verify eigenvectors and eigenvalues of a matrix
+  + Use eigenvectors to reason about linear dynamical systems
 ** 11-05 THU (Lecture)
 + Week: 10
 + Title: The Characteristic Equation
@@ -443,7 +492,16 @@ Piazza./
     + LAA 5.2: The Characteristic Polynomial
     + Edwin Abbott Abbott: [[https://www.gutenberg.org/ebooks/45506][Flatland: A Romance of Many Dimensions]] (§8-14)
 + Topics:
+  + determinants
+  + the characteristic polynomial
+  + triangular matrices
+  + algebraic and geometric multiplicity
 + Learning/Teaching Objectives:
+  + Look briefly at the notion of the determinant of a matrix
+  + Learn how to find eigenvalues (not just verify them)
+  + Connect eigenvalues to polynomials
++ Notes:
+  + Assignment 8 due
 ** 11-09 MON (Midterm Review)
 + Week: 11
 + Title:
@@ -462,7 +520,14 @@ Piazza./
     + LAA 5.3: Diagonalization
     + Edwin Abbott Abbott: [[https://www.gutenberg.org/ebooks/45506][Flatland: A Romance of Many Dimensions]] (§15-22)
 + Topics:
-+ Learning/Teaching Objectives
+  + similar matrices
+  + diagonalizable matrices
+  + change of bases and eigenbases
++ Learning/Teaching Objectives:
+  + Examine another matrix factorization related to basis changes
+  + Walk through how to diagonalize a matrix
++ Notes:
+  + Assignment 9 released
 ** 11-16 MON (Quiz 4)
 + Week: 12
 + Topics:
@@ -478,7 +543,14 @@ Piazza./
     + LAA 6.1: Inner Product, Length, and Orthogonality
     + Justin Prystash: [[https://online.ucpress.edu/sfs/article/53/1/80/217344/Reality-GamesModeling-the-Universe-in-Dimensional][Reality Games: Modeling the Universe in Dimensional Fiction]]
 + Topics:
+  + dot products and norms
+  + orthogonal sets and orthogonal bases
+  + orthonormality
 + Learning/Teaching Objectives:
+  + Introduce familiar notions like "length" and "angles" into our
+    study of vectors
+  + Look at the special case of "right" angles between vectors, i.e.,
+    orthogonality
 ** 11-19 THU (Workshop)
 + Week: 12
 + Title: Orthogonal Projection
@@ -493,7 +565,15 @@ Piazza./
     + LAA 6.4: The Gram-Schmidt Process
     + Samuel Beckett: [[https://www.youtube.com/watch?v=izX5dIzI2RE][Waiting for Godot]] (act I)
 + Topics:
+  + orthogonal projections and orthogonal components
+  + orthogonal matrices
 + Learning/Teaching Objectives:
+  + Introduce orthogonal projection as a way of finding the "shadow"
+    of a vector in a subspace
+  + Connect orthogonality to matrices and linear transformations
++ Notes:
+  + Assignment 10 released
+  + Assignment 9 due
 ** 11-23 MON (Lab 5)
 + Week: 13
 + Title: Matrix Decompositions
@@ -508,10 +588,17 @@ Piazza./
     + LAA 6.5: Least-Squares Problems
     + Samuel Beckett: [[https://www.youtube.com/watch?v=izX5dIzI2RE][Waiting for Godot]] (act II)
 + Topics:
+  + approximate solutions to inconsistent linear solutions
+  + least-squares error and Euclidean norms
+  + least-squares solutions
 + Learning/Teaching Objectives:
+  + Introduce the least squares method as a way of giving
+    "approximate" solutions to systems of linear equations
+  + Demonstrate the relationship between orthogonal projection and
+    least squares solutions
 ** 11-30 MON (Quiz 5)
 + Week: 14
-+ Topic:
++ Topics:
 ** 12-01 TUE (Lecture)
 + Week: 14
 + Title: Linear Models
@@ -522,7 +609,15 @@ Piazza./
     + LAA 6.6: Applications to Linear Models
     + Martin Esslin: [[https://www.jstor.org/stable/1124873?seq=1][The Theater of the Absurd]]
 + Topics:
+  + best fit hyperplane
+  + multiple regression
+  + model parameters
+  + model fitting
+  + design matrices
 + Learning/Teaching Objectives:
+  + Look at applications of linear algebra in machine learning
+  + In particular, show how to fit models of a particular kind to
+    labeled data
 ** 12-03 THU (Workshop)
 + Week: 14
 + Title: Quadratic Forms
@@ -534,7 +629,19 @@ Piazza./
     + LAA 7.2: Quadratic Forms
     + [[https://pubs.usgs.gov/publication/pp1348][The geologic history of the Moon]] 1: General Features
 + Topics:
+  + symmetric matrices
+  + orthogonal diagonalizability
+  + quadratic forms
+  + definiteness
+  + constrained optimization
 + Learning/Teaching Objectives:
+  + Look at the special properties of the eigenvectors and eigenvalues
+    of symmetric matrices
+  + Connect this to solving constrained optimization problems over
+    quadratic forms
++ Notes:
+  + Assignment 11 released
+  + Assignment 10 due
 ** 12-07 MON (Final Exam Review)
 + Week: 15
 + Topics:
@@ -547,9 +654,14 @@ Piazza./
   + Optional:
     + LAA 7.3: Constrained Optimization
     + LAA 7.4: The Singular Value Decomposition
-    + Juan Ruflo: [[https://shortstoryproject.com/stories/they-have-given-us-the-land/][They Have Given Us The Land]]
+    + Juan Rulfo: [[https://shortstoryproject.com/stories/they-have-given-us-the-land/][They Have Given Us The Land]]
 + Topics:
+  + singular values
+  + singular value decomposition
+  + pseudo-inverses
 + Learning/Teaching Objectives:
+  + Look at SVD as a general decomposition for matrices
+  + See an application to least squares solutions via pseudo-inverses
 ** 12-10 THU (Lecture)
 + Week: 15
 + Title: Applications of SVD
@@ -560,5 +672,13 @@ Piazza./
     + LAA 7.5: Applications to Image Processing and Statistics
     + Odilon Redon: [[https://www.ibiblio.org/wm/paint/auth/redon/redon.beatrice.jpg][Beatrice]]
 + Topics:
+  + matrix norms
+  + low-rank approximation
+  + image compression
 + Learning/Teaching Objectives:
+  + See how the SVD of a matrix can be used to expose the "important
+    parts" of the matrix
++ Notes:
+  + Assignment 11 due
 ** 12-15 TUE (Final Exam)
++ Topics:
