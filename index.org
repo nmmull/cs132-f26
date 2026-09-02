@@ -107,9 +107,14 @@ Piazza./
     + [[file:install.org][Installation Guide]]
     + Geometric Algorithms (GA): [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L01LinearEquations.html][Linear Equations]]
     + Course Notes (CN): [[https://nmmull.github.io/lecture-notes/linear-algebra/linear-equations/notes.html][Linear Equations]]
+    + [[https://github.com/nmmull/cs132-f26/tree/main/lectures/09-03-linear-equations][Lecture Material]]
   + Optional:
     + Interactive Linear Algebra (ILA) 1.1: [[https://textbooks.math.gatech.edu/ila/systems-of-eqns.html][Systems of Linear Equations]]
     + Linear Algebra and its Applications (LAA) 1.1: Systems of Linear Equations
+    + Demos:
+      + [[https://nmmull.github.io/gallery132/src/LinearEqThree/index.html][Linear Equation in Three Variables]]
+      + [[https://nmmull.github.io/gallery132/src/LinearSysThree/index.html][Linear System with Three Equations]]
+      + [[https://nmmull.github.io/gallery132/src/RowOp/index.html][Row Replacements Preserve Solutions]]
     + Wallace Stevens: [[https://www.poetryfoundation.org/poems/43429/disillusionment-of-ten-oclock][Disillusionment of Ten O'Clock]]
 + Topics:
   + systems of linear equations
