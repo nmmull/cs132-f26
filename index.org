@@ -24,7 +24,7 @@ Crovella]].
 |-------+----------------------------------------+------------------------------------------+---|
 | 09-07 | *No Lab*                               | Labor Day                                | ✓ |
 | [[*09-08 TUE (Lecture)][09-08]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L01LinearEquations.html][Echelon Forms]]                          |                                          | ✓ |
-| [[*09-10 THU (Lecture)][09-10]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L03RowReductions.html][Gaussian Elimination]]                   | A2 out, A1 due                           |   |
+| [[*09-10 THU (Lecture)][09-10]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L03RowReductions.html][Gaussian Elimination]]                   | [[file:assignments/assign02.pdf][A2]] out, A1 due                           |   |
 |-------+----------------------------------------+------------------------------------------+---|
 | [[*09-14 MON (Lab 1)][09-14]] | Lab 1: Introduction to NumPy           |                                          |   |
 | [[*09-15 TUE (Lecture)][09-15]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L04VectorEquations.html][Vector Equations]]                       |                                          |   |
@@ -171,7 +171,7 @@ Piazza./
   + Get a sense of the errors that can occur when working with
     floating-point numbers
 + Notes:
-  + Assignment 2 released
+  + [[file:assignments/assign02.pdf][Assignment 2]] released
   + Assignment 1 due
 ** 09-14 MON (Lab 1)
 + Week: 3
