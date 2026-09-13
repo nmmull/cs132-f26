@@ -17,72 +17,72 @@ Crovella]].
 + [[https://piazza.com/bu/fall2026/cascs132/home][Piazza]]
 + [[https://www.gradescope.com/courses/1353969][Gradescope]] (Entry Code: YB3RRX)
 * Schedule (Compact)
-|-------+----------------------------------------+------------------------------------------+---|
-| Date  | Topic                                  | Notes                                    |   |
-|-------+----------------------------------------+------------------------------------------+---|
-| [[*09-03 THU (Lecture)][09-03]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L01LinearEquations.html][Solving Linear Systems]]                 | Read course manual, [[file:assignments/assign01.pdf][A1]] out               | ✓ |
-|-------+----------------------------------------+------------------------------------------+---|
-| 09-07 | *No Lab*                               | Labor Day                                | ✓ |
-| [[*09-08 TUE (Lecture)][09-08]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L01LinearEquations.html][Echelon Forms]]                          |                                          | ✓ |
-| [[*09-10 THU (Lecture)][09-10]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L03RowReductions.html][Gaussian Elimination]]                   | [[file:assignments/assign02.pdf][A2]] out, A1 due                           | ✓ |
-|-------+----------------------------------------+------------------------------------------+---|
-| [[*09-14 MON (Lab 1)][09-14]] | Lab 1: Introduction to NumPy           |                                          |   |
-| [[*09-15 TUE (Lecture)][09-15]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L04VectorEquations.html][Vector Equations]]                       |                                          |   |
-| 09-16 |                                        | Last day to add or change to audit       |   |
-| [[*09-17 THU (Workshop)][09-17]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L05Axb.html][Matrix-Vector Equations]] (Workshop)     | A3 out, A2 due                           |   |
-|-------+----------------------------------------+------------------------------------------+---|
-| [[*09-21 MON (Quiz 1)][09-21]] | Quiz 1                                 |                                          |   |
-| [[*09-22 TUE (Lecture)][09-22]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L06LinearIndependence.html][Linear Independence]]                    |                                          |   |
-| [[*09-24 THU (Lecture)][09-24]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L07LinearTransformations.html][Linear Transformations]]                 | A4 out, A3 due                           |   |
-|-------+----------------------------------------+------------------------------------------+---|
-| [[*09-28 MON (Lab 2)][09-28]] | Lab 2: Computer-Solving Equations (I)  |                                          |   |
-| [[*09-29 TUE (Lecture)][09-29]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L08MatrixofLinearTranformation.html][Matrix Transformations]]                 |                                          |   |
-| [[*10-01 THU (Workshop)][10-01]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L09MatrixOperations.html][Matrix Algebra]] (Workshop)              | A5 out, A4 due                           |   |
-|-------+----------------------------------------+------------------------------------------+---|
-| [[*10-05 MON (Quiz 2)][10-05]] | Quiz 2                                 |                                          |   |
-| [[*10-06 TUE (Lecture)][10-06]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L10MatrixInverse.html][Matrix Inverses]]                        |                                          |   |
-| 10-07 |                                        | Last day to drop w/o a "W"               |   |
-| [[*10-08 THU (Lecture)][10-08]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L12MatrixFactorizations.html][LU Factorization]]                       | A5 due                                   |   |
-|-------+----------------------------------------+------------------------------------------+---|
-| 10-12 | *No Lab*                               | Indigenous People's Day                  |   |
-| [[*10-13 TUE (Midterm Review)][10-13]] | Midterm Review                         | Substitute Monday                        |   |
-| [[*10-15 THU (Midterm 1)][10-15]] | *Midterm 1*                            | A6 out                                   |   |
-|-------+----------------------------------------+------------------------------------------+---|
-| [[*10-19 MON (Lab 3)][10-19]] | Lab 3: Computer-Solving Equations (II) |                                          |   |
-| [[*10-20 TUE (Lecture)][10-20]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L11MarkovChains.html][Markov Chains]]                          |                                          |   |
-| [[*10-22 THU (Lecture)][10-22]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L13ComputerGraphics.html][Computer Graphics]]                      | A7 out, A6 due                           |   |
-|-------+----------------------------------------+------------------------------------------+---|
-| [[*10-26 MON (Quiz 3)][10-26]] | Quiz 3                                 |                                          |   |
-| [[*10-27 TUE (Lecture)][10-27]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L14Subspaces.html][Subspaces]]                              |                                          |   |
-| [[*10-29 THU (Workshop)][10-29]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L15DimensionRank.html][Dimension and Rank]] (Workshop)          | A8 out, A7 due                           |   |
-|-------+----------------------------------------+------------------------------------------+---|
-| [[*11-02 MON (Lab 4)][11-02]] | Lab 4: Graphics                        |                                          |   |
-| [[*11-03 TUE (Lecture)][11-03]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L16Eigenvectors.html][Eigenvalues and Eigenvectors]]           |                                          |   |
-| [[*11-05 THU (Lecture)][11-05]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L17CharacteristicEqn.html][The Characteristic Equation]]            | A8 due                                   |   |
-| 11-06 |                                        | Last day to drop w/ "W" or designate P/F |   |
-|-------+----------------------------------------+------------------------------------------+---|
-| [[*11-09 MON (Midterm Review)][11-09]] | Midterm Review                         |                                          |   |
-| [[*11-10 TUE (Midterm 2)][11-10]] | *Midterm 2*                            |                                          |   |
-| [[*11-12 THU (Lecture)][11-12]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L18Diagonalization.html][Diagonalization]]                        | A9 out                                   |   |
-|-------+----------------------------------------+------------------------------------------+---|
-| [[*11-16 MON (Quiz 4)][11-16]] | Quiz 4                                 |                                          |   |
-| [[*11-17 TUE (Lecture)][11-17]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L20Orthogonality.html][Orthogonality]]                          |                                          |   |
-| [[*11-19 THU (Workshop)][11-19]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L21OrthogonalSets.html][Orthogonal Projection]] (Workshop)       | A10 out, A9 due                          |   |
-|-------+----------------------------------------+------------------------------------------+---|
-| [[*11-23 MON (Lab 5)][11-23]] | Lab 5: Matrix Decompositions           |                                          |   |
-| [[*11-24 TUE (Lecture)][11-24]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L22LeastSquares.html][Least Squares]]                          |                                          |   |
-| 11-26 | *No Lecture*                           | Thanksgiving Recess                      |   |
-|-------+----------------------------------------+------------------------------------------+---|
-| [[*11-30 MON (Quiz 5)][11-30]] | Quiz 5                                 |                                          |   |
-| [[*12-01 TUE (Lecture)][12-01]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L23LinearModels.html][Linear Models]]                          |                                          |   |
-| [[*12-03 THU (Workshop)][12-03]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L24SymmetricMatrices.html][Quadratic Forms]] (Workshop)             | A11 out, A10 due                         |   |
-|-------+----------------------------------------+------------------------------------------+---|
-| [[*12-07 MON (Final Exam Review)][12-07]] | Final Exam Review                      |                                          |   |
-| [[*12-08 TUE (Lecture)][12-08]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L25SVD.html][Singular Value Decomposition]]           |                                          |   |
-| [[*12-10 THU (Lecture)][12-10]] | [[https://mcrovella.github.io/CS132-Geometric-Algorithms/L26ApplicationsOfSVD.html][Applications of SVD]]                    | A11 due                                  |   |
-|-------+----------------------------------------+------------------------------------------+---|
-| [[*12-15 TUE (Final Exam)][12-15]] | *Final Exam*                           | 12:00PM-2:00PM                           |   |
-|-------+----------------------------------------+------------------------------------------+---|
+|-------+-----------------------------------------+------------------------------------------+---|
+| Date  | Topic                                   | Notes                                    |   |
+|-------+-----------------------------------------+------------------------------------------+---|
+| [[*09-03 THU (Lecture)][09-03]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L01LinearEquations.html][Solving Linear Systems]]                  | Read course manual, [[file:assignments/assign01.pdf][A1]] out               | ✓ |
+|-------+-----------------------------------------+------------------------------------------+---|
+| 09-07 | *No Lab*                                | Labor Day                                | ✓ |
+| [[*09-08 TUE (Lecture)][09-08]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L01LinearEquations.html][Echelon Forms]]                           |                                          | ✓ |
+| [[*09-10 THU (Lecture)][09-10]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L03RowReductions.html][Gaussian Elimination]]                    | [[file:assignments/assign02.pdf][A2]] out, A1 due                           | ✓ |
+|-------+-----------------------------------------+------------------------------------------+---|
+| [[*09-14 MON (Lab 1)][09-14]] | Lab 1: [[file:labs/1/lab1.pdf][NumPy, SciPy, and Linear Algebra]] |                                          |   |
+| [[*09-15 TUE (Lecture)][09-15]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L04VectorEquations.html][Vector Equations]]                        |                                          |   |
+| 09-16 |                                         | Last day to add or change to audit       |   |
+| [[*09-17 THU (Workshop)][09-17]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L05Axb.html][Matrix-Vector Equations]] (Workshop)      | A3 out, A2 due                           |   |
+|-------+-----------------------------------------+------------------------------------------+---|
+| [[*09-21 MON (Quiz 1)][09-21]] | Quiz 1                                  |                                          |   |
+| [[*09-22 TUE (Lecture)][09-22]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L06LinearIndependence.html][Linear Independence]]                     |                                          |   |
+| [[*09-24 THU (Lecture)][09-24]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L07LinearTransformations.html][Linear Transformations]]                  | A4 out, A3 due                           |   |
+|-------+-----------------------------------------+------------------------------------------+---|
+| [[*09-28 MON (Lab 2)][09-28]] | Lab 2: Computer-Solving Equations (I)   |                                          |   |
+| [[*09-29 TUE (Lecture)][09-29]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L08MatrixofLinearTranformation.html][Matrix Transformations]]                  |                                          |   |
+| [[*10-01 THU (Workshop)][10-01]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L09MatrixOperations.html][Matrix Algebra]] (Workshop)               | A5 out, A4 due                           |   |
+|-------+-----------------------------------------+------------------------------------------+---|
+| [[*10-05 MON (Quiz 2)][10-05]] | Quiz 2                                  |                                          |   |
+| [[*10-06 TUE (Lecture)][10-06]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L10MatrixInverse.html][Matrix Inverses]]                         |                                          |   |
+| 10-07 |                                         | Last day to drop w/o a "W"               |   |
+| [[*10-08 THU (Lecture)][10-08]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L12MatrixFactorizations.html][LU Factorization]]                        | A5 due                                   |   |
+|-------+-----------------------------------------+------------------------------------------+---|
+| 10-12 | *No Lab*                                | Indigenous People's Day                  |   |
+| [[*10-13 TUE (Midterm Review)][10-13]] | Midterm Review                          | Substitute Monday                        |   |
+| [[*10-15 THU (Midterm 1)][10-15]] | *Midterm 1*                             | A6 out                                   |   |
+|-------+-----------------------------------------+------------------------------------------+---|
+| [[*10-19 MON (Lab 3)][10-19]] | Lab 3: Computer-Solving Equations (II)  |                                          |   |
+| [[*10-20 TUE (Lecture)][10-20]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L11MarkovChains.html][Markov Chains]]                           |                                          |   |
+| [[*10-22 THU (Lecture)][10-22]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L13ComputerGraphics.html][Computer Graphics]]                       | A7 out, A6 due                           |   |
+|-------+-----------------------------------------+------------------------------------------+---|
+| [[*10-26 MON (Quiz 3)][10-26]] | Quiz 3                                  |                                          |   |
+| [[*10-27 TUE (Lecture)][10-27]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L14Subspaces.html][Subspaces]]                               |                                          |   |
+| [[*10-29 THU (Workshop)][10-29]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L15DimensionRank.html][Dimension and Rank]] (Workshop)           | A8 out, A7 due                           |   |
+|-------+-----------------------------------------+------------------------------------------+---|
+| [[*11-02 MON (Lab 4)][11-02]] | Lab 4: Graphics                         |                                          |   |
+| [[*11-03 TUE (Lecture)][11-03]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L16Eigenvectors.html][Eigenvalues and Eigenvectors]]            |                                          |   |
+| [[*11-05 THU (Lecture)][11-05]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L17CharacteristicEqn.html][The Characteristic Equation]]             | A8 due                                   |   |
+| 11-06 |                                         | Last day to drop w/ "W" or designate P/F |   |
+|-------+-----------------------------------------+------------------------------------------+---|
+| [[*11-09 MON (Midterm Review)][11-09]] | Midterm Review                          |                                          |   |
+| [[*11-10 TUE (Midterm 2)][11-10]] | *Midterm 2*                             |                                          |   |
+| [[*11-12 THU (Lecture)][11-12]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L18Diagonalization.html][Diagonalization]]                         | A9 out                                   |   |
+|-------+-----------------------------------------+------------------------------------------+---|
+| [[*11-16 MON (Quiz 4)][11-16]] | Quiz 4                                  |                                          |   |
+| [[*11-17 TUE (Lecture)][11-17]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L20Orthogonality.html][Orthogonality]]                           |                                          |   |
+| [[*11-19 THU (Workshop)][11-19]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L21OrthogonalSets.html][Orthogonal Projection]] (Workshop)        | A10 out, A9 due                          |   |
+|-------+-----------------------------------------+------------------------------------------+---|
+| [[*11-23 MON (Lab 5)][11-23]] | Lab 5: Matrix Decompositions            |                                          |   |
+| [[*11-24 TUE (Lecture)][11-24]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L22LeastSquares.html][Least Squares]]                           |                                          |   |
+| 11-26 | *No Lecture*                            | Thanksgiving Recess                      |   |
+|-------+-----------------------------------------+------------------------------------------+---|
+| [[*11-30 MON (Quiz 5)][11-30]] | Quiz 5                                  |                                          |   |
+| [[*12-01 TUE (Lecture)][12-01]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L23LinearModels.html][Linear Models]]                           |                                          |   |
+| [[*12-03 THU (Workshop)][12-03]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L24SymmetricMatrices.html][Quadratic Forms]] (Workshop)              | A11 out, A10 due                         |   |
+|-------+-----------------------------------------+------------------------------------------+---|
+| [[*12-07 MON (Final Exam Review)][12-07]] | Final Exam Review                       |                                          |   |
+| [[*12-08 TUE (Lecture)][12-08]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L25SVD.html][Singular Value Decomposition]]            |                                          |   |
+| [[*12-10 THU (Lecture)][12-10]] | [[https://mcrovella.github.io/CS132-Geometric-Algorithms/L26ApplicationsOfSVD.html][Applications of SVD]]                     | A11 due                                  |   |
+|-------+-----------------------------------------+------------------------------------------+---|
+| [[*12-15 TUE (Final Exam)][12-15]] | *Final Exam*                            | 12:00PM-2:00PM                           |   |
+|-------+-----------------------------------------+------------------------------------------+---|
 * Calendar
 #+begin_export html
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&showTitle=0&showTabs=0&showCalendars=0&showTz=0&mode=WEEK&src=Y18xNmFlZmQ1NDllYWEzYjgyNmY2YTk0YzAwNzQ4ZDVhYTA0NjBmZjkzYTZhYTAyMzAwNDhiODg0YjMwMTdjMzM2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%233f51b5" style="border-width:0" width="900" height="600" frameborder="0" scrolling="no"></iframe>
@@ -175,7 +175,8 @@ Piazza./
   + Assignment 1 due
 ** 09-14 MON (Lab 1)
 + Week: 3
-+ Title: Introduction to NumPy
++ Title: NumPy, SciPy, and Linear Algebar
++ Reading: [[file:labs/1/lab1.pdf][specification]]
 ** 09-15 TUE (Lecture)
 + Week: 3
 + Title: Vector Equations
@@ -267,6 +268,7 @@ Piazza./
 + Notes:
   + Assignment 4 released
   + Assignment 3 due
+  + Lab 1 due
 ** 09-28 MON (Lab 2)
 + Week: 5
 + Title: Computer-Solving Equations (I)
