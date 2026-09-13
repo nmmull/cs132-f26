@@ -175,7 +175,7 @@ Piazza./
   + Assignment 1 due
 ** 09-14 MON (Lab 1)
 + Week: 3
-+ Title: NumPy, SciPy, and Linear Algebar
++ Title: NumPy, SciPy, and Linear Algebra
 + Reading: [[file:labs/1/lab1.pdf][specification]]
 ** 09-15 TUE (Lecture)
 + Week: 3
