@@ -26,7 +26,7 @@ Crovella]].
 | [[*09-08 TUE (Lecture)][09-08]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L01LinearEquations.html][Echelon Forms]]                           |                                          | ✓ |
 | [[*09-10 THU (Lecture)][09-10]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L03RowReductions.html][Gaussian Elimination]]                    | [[file:assignments/assign02.pdf][A2]] out, A1 due                           | ✓ |
 |-------+-----------------------------------------+------------------------------------------+---|
-| [[*09-14 MON (Lab 1)][09-14]] | Lab 1: [[file:labs/1/lab1.pdf][NumPy, SciPy, and Linear Algebra]] |                                          |   |
+| [[*09-14 MON (Lab 1)][09-14]] | Lab 1: [[file:labs/1/lab1.pdf][NumPy, SciPy, and Linear Algebra]] |                                          | ✓ |
 | [[*09-15 TUE (Lecture)][09-15]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L04VectorEquations.html][Vector Equations]]                        |                                          |   |
 | 09-16 |                                         | Last day to add or change to audit       |   |
 | [[*09-17 THU (Workshop)][09-17]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L05Axb.html][Matrix-Vector Equations]] (Workshop)      | A3 out, A2 due                           |   |
