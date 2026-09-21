@@ -31,7 +31,7 @@ Crovella]].
 | 09-16 |                                         | Last day to add or change to audit       | ✓ |
 | [[*09-17 THU (Workshop)][09-17]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L05Axb.html][Matrix-Vector Equations]] (Workshop)      | [[file:assignments/assign03.pdf][A3]] out, A2 due                           | ✓ |
 |-------+-----------------------------------------+------------------------------------------+---|
-| [[*09-21 MON (Quiz 1)][09-21]] | Quiz 1                                  |                                          |   |
+| [[*09-21 MON (Quiz 1)][09-21]] | Quiz 1                                  |                                          | ✓ |
 | [[*09-22 TUE (Lecture)][09-22]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L06LinearIndependence.html][Linear Independence]]                     |                                          |   |
 | [[*09-24 THU (Lecture)][09-24]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L07LinearTransformations.html][Linear Transformations]]                  | A4 out, A3 due                           |   |
 |-------+-----------------------------------------+------------------------------------------+---|
