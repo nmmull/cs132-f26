@@ -32,8 +32,8 @@ Crovella]].
 | [[*09-17 THU (Workshop)][09-17]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L05Axb.html][Matrix-Vector Equations]] (Workshop)      | [[file:assignments/assign03.pdf][A3]] out, A2 due                           | ✓ |
 |-------+-----------------------------------------+------------------------------------------+---|
 | [[*09-21 MON (Quiz 1)][09-21]] | Quiz 1                                  |                                          | ✓ |
-| [[*09-22 TUE (Lecture)][09-22]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L06LinearIndependence.html][Linear Independence]]                     |                                          |   |
-| [[*09-24 THU (Lecture)][09-24]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L07LinearTransformations.html][Linear Transformations]]                  | A4 out, A3 due                           |   |
+| [[*09-22 TUE (Lecture)][09-22]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L06LinearIndependence.html][Linear Independence]]                     |                                          | ✓ |
+| [[*09-24 THU (Lecture)][09-24]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L07LinearTransformations.html][Linear Transformations]]                  | [[file:assignments/assign04.pdf][A4]] out, A3 due                           | ✓ |
 |-------+-----------------------------------------+------------------------------------------+---|
 | [[*09-28 MON (Lab 2)][09-28]] | Lab 2: Computer-Solving Equations (I)   |                                          |   |
 | [[*09-29 TUE (Lecture)][09-29]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L08MatrixofLinearTranformation.html][Matrix Transformations]]                  |                                          |   |
@@ -225,6 +225,9 @@ Piazza./
 ** 09-21 MON (Quiz 1)
 + Week: 4
 + Topics:
+  + Row operations
+  + Row-reduced echelon forms
+  + General form solutions
 ** 09-22 TUE (Lecture)
 + Week: 4
 + Title: Linear Independence
@@ -268,7 +271,7 @@ Piazza./
     particular, look at matrix-vector multiplication as the canonical
     example of a linear transformation)
 + Notes:
-  + Assignment 4 released
+  + [[file:assignments/assign04.pdf][Assignment 4]] released
   + Assignment 3 due
   + Lab 1 due
 ** 09-28 MON (Lab 2)
