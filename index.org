@@ -272,6 +272,9 @@ Piazza./
     example of a linear transformation)
 + Notes:
   + [[file:assignments/assign04.pdf][Assignment 4]] released
+    + Note [2026-09-27 12:30PM]: There was a typo in problem 5.15.
+      Please verify that you are using version 1.1 of the workbook for
+      the assignment.
   + Assignment 3 due
   + Lab 1 due
 ** 09-28 MON (Lab 2)
