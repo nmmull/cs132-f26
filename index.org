@@ -37,7 +37,7 @@ Crovella]].
 |-------+-----------------------------------------+------------------------------------------+---|
 | [[*09-28 MON (Lab 2)][09-28]] | Lab 2: Computer-Solving Equations (I)   |                                          | ✓ |
 | [[*09-29 TUE (Lecture)][09-29]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L08MatrixofLinearTranformation.html][Matrix Transformations]]                  |                                          | ✓ |
-| [[*10-01 THU (Workshop)][10-01]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L09MatrixOperations.html][Matrix Algebra]] (Workshop)               | A5 out, A4 due                           |   |
+| [[*10-01 THU (Workshop)][10-01]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L09MatrixOperations.html][Matrix Algebra]] (Workshop)               | [[file:assignments/assign05.pdf][A5]] out, A4 due                           |   |
 |-------+-----------------------------------------+------------------------------------------+---|
 | [[*10-05 MON (Quiz 2)][10-05]] | Quiz 2                                  |                                          |   |
 | [[*10-06 TUE (Lecture)][10-06]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L10MatrixInverse.html][Matrix Inverses]]                         |                                          |   |
@@ -323,7 +323,7 @@ Piazza./
   + Connect matrix multiplication with the composition of linear
     transformations
 + Notes:
-  + Assignment 5 released
+  + [[file:assignments/assign05.pdf][Assignment 5]] released
   + Assignment 4 due
 ** 10-05 MON (Quiz 2)
 + Week: 6
