@@ -1,0 +1,119 @@
+\documentclass[10pt]{article}
+\usepackage{amsthm, amssymb, mathtools}
+\usepackage[margin=0.25in]{geometry}
+\pagenumbering{gobble}
+
+\newcommand{\nameId}{
+  \vspace{-1.5in}
+
+  \noindent Name:
+  \hfill
+  Partner Check: \hspace{2in}
+  \bigskip
+
+  \noindent BUID:
+  \bigskip
+
+  \vspace{0.25in}
+}
+
+\newcommand{\solPrompt}{
+  \textit{Write your answers below and on the back of this page.}
+}
+
+\newcommand{\emptyPage}{
+  \pagebreak
+  \textit{Continue your work here.}
+}
+
+\title{Workshop 2: Matrix Algebra}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+\nameId
+
+\begin{enumerate}
+\item
+  \textit{Review.}
+  Determine the matrix for the transformation $T : \mathbb R^2 \to \mathbb R^2$ that projects vectors vertically onto the line $y = 2x$.
+  Also show that this transformation but with the line $y = 2x + 3$ is not linear.
+  \vspace{1.75in}
+\item
+  Determine if the transformation
+  $
+  \begin{bmatrix}
+    x_1 \\ x_2
+  \end{bmatrix}
+  \mapsto
+  \begin{bmatrix}
+    x_1 \\ x_2 \\ x_1 + x_2
+  \end{bmatrix}
+  $
+  is one-to-one, onto, both or neither. Justify your answer.
+  \vspace{1.75in}
+\item
+  Determine if the transformation
+  $
+  \mathbf x
+  \mapsto
+  \begin{bmatrix}
+    1 & 0 \\ 0 & 0
+  \end{bmatrix}
+  \mathbf x
+  $
+  is one-to-one, onto, both or neither. Justify your answer.
+  Also draw the effect of this transformation on the unit square.
+ \vspace{1.75in}
+\item
+  Determine a general form solution for the equation
+  $
+  \begin{bmatrix}
+    1 & 2 \\
+    3 & 4
+  \end{bmatrix}
+  \mathbf x =
+  \begin{bmatrix}
+    0 & 3 \\
+    1 & 6
+  \end{bmatrix}
+  \mathbf x
+  $.
+  \vspace{1.75in}
+  \pagebreak
+\item
+  Let
+  $
+  A =
+  \begin{bmatrix}
+    1 & 2 \\ 0 & -1 \\ 3 & 1
+  \end{bmatrix}
+  $
+  and
+  $
+  B =
+  \begin{bmatrix}
+    2 & 0 \\ -1 & 4 \\ 1 & 1
+  \end{bmatrix}
+  $.
+  Calculate $AB$.
+  If it's not possible, then explain why.
+  \vspace{1.75in}
+\item
+  Let $A$ and $B$ be as in the previous problem.
+  Calculate $((A^TB)^2)^T$.
+  If it's not possible, then explain why.
+  \vspace{1.75in}
+\item
+  Determine two matrices $A, B \in \mathbb R^{2 \times 2}$ such that $AB \neq BA$.
+  Try doing this by thinking of two transformations $S$ and $T$ such that $S \circ T \neq T \circ S$ (where $S \circ T$ is $S$ composed with $T$).
+  \vspace{1.75in}
+\item
+  Suppose that $A \in \mathbb R^{m \times n}$ and $(A^TB)^T C \in \mathbb R^{a \times b}$ (where all products are well-defined).
+  Determine the shapes of $B$ and $C$.
+  \vspace{1.75in}
+\item
+  Determine two matrices $A, B \in \mathbb R^{2 \times 2}$ such that $AB = 0$ but $A \not = 0$ and $B \not = 0$.
+  \vspace{1.75in}
+\end{enumerate}
+\end{document}
