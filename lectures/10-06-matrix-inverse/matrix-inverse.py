@@ -13,7 +13,11 @@ ainv = np.linalg.inv(a)
 aid = np.hstack([a, np.eye(3), np.array([[5, -1, 6]]).T])
 
 # row reductions
-# TODO
+aid[2] -= aid[0]
+aid[2] += 2 * aid[1]
+aid[0] -= 5 * aid[2]
+aid[1] -= 3 * aid[2]
+aid[0] -= 2 * aid[1]
 
 print()
 print("------------------------------")
