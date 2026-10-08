@@ -1,0 +1,147 @@
+#+title: Midterm Exam Prep Material
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../style.css" />
+#+OPTIONS: html-style:nil H:2 toc:nil num:nil
+#+HTML_LINK_HOME: ../index.html
+* Practice Exams
+
+The following are exams that we've previously given for this course.
+You'll notice that many of the problems have already appeared as
+homework assignments; the workbook consists of every problem we've
+ever asked in this course.  The primary value of the exams is to give
+you a sense of how the exam will be structured, and what you should expect
+both in terms of difficulty and length.
+
++ [[file:practice-midterm-1.pdf][Practice exam (1)]]
++ [[file:practice-midterm-2.pdf][Practice exam (2)]]
++ [[file:practice-midterm-3.pdf][Practice exam (3)]]
+
+* Midterm Topics
+
+Finally, a collection of things you should be comfortable with going into
+the midterm.  It's not exhaustive, and I can pretty much guarantee
+that no question on the midterm will be a direct restatement of
+anything below, but if you understand everything in this document, you
+have the foundations to approach any question on the midterm.
+
+** Objects you should know
++ Vectors
+  + zero vector
+  + standard basis vectors
++ Matrices
+  + augmented matrices
+  + echelon forms
+  + reduced echelon forms
+  + zero matrix
+  + identity matrix
+  + 2D linear transformation
+    + rotation
+    + dilation
+    + contraction
+    + reflection
+    + shearing
+    + projection
+  + 3D linear transformations
+    + reflection
+    + rotation
+  + matrix operations
+    + addition/subtraction
+    + multiplication
+    + powers
+    + transpose
+** Things you should know how to do
++ Systems of linear equations
+  + Given a system of linear equations:
+    + determine if a given solution satisfies it
+    + determine if it is consistent
+    + find one of its solution, if one exists
+    + find a general form solution which describes its solution set
+    + write down its augmented matrix
+    + write down its coefficient matrix
+    + row reduce its augmented/coefficient matrix to echelon form
+    + row reduce its augmented/coefficient matrix to reduced echelon form
+    + determine if it has a unique solution
+    + determine if it has infinitely many solutions
++ Vectors
+  + Given a vector equation:
+    + determine if a given solution satsifies it
+    + determine if it is consistent
+    + find one of its solutions, if one exists
+    + find a general form solution which describes its solution set
+    + write down a system of linear equations which has the same solution set
+  + Given a set of vectors in ℝⁿ:
+    + compute a given linear combination of them
+    + find a vector which lies in their span
+    + determine if a given vector lies in their span
+    + find a vector which does not lie in their span, if one exists
+    + determine if set spans all of ℝⁿ
+    + determine if the set is linearly independent
+    + determine a dependence relation for them, if one exists
+    + determine if its span is the same as the span of another given set of vectors
+  + Given two vectors:
+    + compute their inner product
+    + find a linear equation which describes plane spanned by those vectors, given they are linearly independent
+  + Given one vector:
+    + find two plane equations whose intersection is its span, given it is nonzero
+    + draw it, given it is in ℝ²
++ Matrices
+  + Given a matrix equation:
+    + determine if a given vector is one of its solutions
+    + determine if it is consistent
+    + find one of its solutions, if one exists
+    + write down a system of linear equations which has the same solution set
+    + write down a vector equation which has the same solution set
+  + Given a (m × n) matrix A:
+    + determine if it is row equivalent to another given matrix
+    + determine if it is in echelon form
+    + determine if it is in reduced echelon form
+    + determine its pivot positions
+    + determine if the product Av for a given vector v is defined
+    + compute the product Av for a given vector v, given it is defined
+    + determine if the equation Ax = b has a solution for any choice of b
+    + determine if the equation Ax = b has a unique solution for a given choice of b
+    + determine if a given vector can be written as a linear combination of its columns
+    + determine if its columns span ℝᵐ
+    + determine if its columns are linearly independent
+  + Given a (2 × 2) matrix A:
+    + draw the effect on the transformation on the unit square
+  # + Given a (n × n) matrix A:
+  #   + find its inverse
+  #   + use the invertible matrix theorem to determine if it's invertible
++ Linear transformations
+  + Given a transformation:
+    + identify its domain
+    + identify its codomain
+    + identify if its range is the same as its codomain
+    + determine if it is linear
+  + Given a linear transformation:
+    + determine its value on a linear combination of vectors
+    + find the matrix implementing a linear transformation given:
+      + the input+output behavior of the transformation on a set of vectors
+      + a geometric picture/description in ℝ² or ℝ³ of how the transformation behaves
+      + an algebraic description of the linear transformation
+    + find a set of vectors which spans its range
+** Facts you should know how to use
++ every matrix has a unique reduced echelon form
++ a matrix is the augmented matrix of a inconsistent system if and only if any of its echelon forms have a pivot in the last column
++ two vectors are linearly dependent if and only if they are co-linear
++ the following are equivalent for a (m × n) matrix A:
+  + Ax = 0 has a unique solution
+  + the columns of A are linearly independent
+  + A has a pivot in every column
++ the following are equivalent for a (m × n) matrix A:
+  + Ax = b has a solution for any choice of b
+  + the columns of A span ℝᵐ
+  + A has a pivot in every row
++ for a (m × n) matrix:
+  + if m < n, then its columns are not linearly independent
+  + if n < m, then its columns do not span ℝᵐ
+# + every condition of the invertible matrix theorem
+** Counterexample you should know
++ a consistent system of linear equations with more equations than unknowns
++ an inconsistent system of linear equations with more unknowns than equations
++ two distinct echelon forms that are row+equivalent, but have the same entries in every pivot position
++ two different sized sets of vectors which have the same span
++ a set of linearly dependent vectors in which one cannot be written as a linear combination of other others
++ a set of linearly dependent vectors such that every proper subset is linear independent
++ a linear transformation which changes the length of some but not all vectors
++ a linear transformation which changes the direction of some but not all vectors

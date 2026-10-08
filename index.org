@@ -42,7 +42,7 @@ Crovella]].
 | [[*10-05 MON (Quiz 2)][10-05]] | Quiz 2                                  |                                          | ✓ |
 | [[*10-06 TUE (Lecture)][10-06]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L10MatrixInverse.html][Matrix Inverses]]                         |                                          | ✓ |
 | 10-07 |                                         | Last day to drop w/o a "W"               | ✓ |
-| [[*10-08 THU (Lecture)][10-08]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L12MatrixFactorizations.html][LU Factorization]]                        | A5 due                                   |   |
+| [[*10-08 THU (Lecture)][10-08]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L12MatrixFactorizations.html][LU Factorization]]                        | A5 due, [[file:midterm/midterm-prep.org][Midterm prep material]]            |   |
 |-------+-----------------------------------------+------------------------------------------+---|
 | 10-12 | *No Lab*                                | Indigenous People's Day                  |   |
 | [[*10-13 TUE (Midterm Review)][10-13]] | Midterm Review                          | Substitute Monday                        |   |
@@ -372,6 +372,7 @@ Piazza./
     multiple matrix equations (over the same matrix)
 + Notes:
   + Assignment 5 due
+  + [[file:midterm/midterm-prep.org][Midterm prep material]] has been released
 ** 10-13 TUE (Midterm Review)
 + Week: 7
 ** 10-15 THU (Midterm 1)
