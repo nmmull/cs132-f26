@@ -83,6 +83,7 @@ have the foundations to approach any question on the midterm.
   + Given one vector:
     + find two plane equations whose intersection is its span, given it is nonzero
     + draw it, given it is in ℝ²
+  + Basic NumPy array manipulation
 + Matrices
   + Given a matrix equation:
     + determine if a given vector is one of its solutions
