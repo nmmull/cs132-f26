@@ -11,9 +11,9 @@ ever asked in this course.  The primary value of the exams is to give
 you a sense of how the exam will be structured, and what you should expect
 both in terms of difficulty and length.
 
-+ [[file:practice-midterm-1.pdf][Practice exam (1)]]
-+ [[file:practice-midterm-2.pdf][Practice exam (2)]]
-+ [[file:practice-midterm-3.pdf][Practice exam (3)]]
++ [[file:practice-midterm-1.pdf][Practice exam (1)]] [[file:practice-midterm-1-sol.pdf][solutions]]
++ [[file:practice-midterm-2.pdf][Practice exam (2)]] [[file:practice-midterm-2-sol.pdf][solutions]]
++ [[file:practice-midterm-3.pdf][Practice exam (3)]] [[file:practice-midterm-3-sol.pdf][solutions]]
 
 * Midterm Topics
 
