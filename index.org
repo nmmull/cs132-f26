@@ -45,8 +45,8 @@ Crovella]].
 | [[*10-08 THU (Lecture)][10-08]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L12MatrixFactorizations.html][LU Factorization]]                        | A5 due, [[file:midterm/midterm-prep.org][Midterm prep material]]            | ✓ |
 |-------+-----------------------------------------+------------------------------------------+---|
 | 10-12 | *No Lab*                                | Indigenous People's Day                  | ✓ |
-| [[*10-13 TUE (Midterm Review)][10-13]] | Midterm Review                          | Substitute Monday                        |   |
-| [[*10-15 THU (Midterm 1)][10-15]] | *Midterm 1*                             | A6 out                                   |   |
+| [[*10-13 TUE (Midterm Review)][10-13]] | Midterm Review                          | Substitute Monday                        | ✓ |
+| [[*10-15 THU (Midterm 1)][10-15]] | *Midterm 1*                             | A6 out                                   | ✓ |
 |-------+-----------------------------------------+------------------------------------------+---|
 | [[*10-19 MON (Lab 3)][10-19]] | Lab 3: Computer-Solving Equations (II)  |                                          |   |
 | [[*10-20 TUE (Lecture)][10-20]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L11MarkovChains.html][Markov Chains]]                           |                                          |   |
