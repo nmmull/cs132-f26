@@ -48,7 +48,7 @@ Crovella]].
 | [[*10-13 TUE (Midterm Review)][10-13]] | Midterm Review                          | Substitute Monday                        | ✓ |
 | [[*10-15 THU (Midterm 1)][10-15]] | *Midterm 1*                             | [[file:assignments/assign06.pdf][A6]] out                                   | ✓ |
 |-------+-----------------------------------------+------------------------------------------+---|
-| [[*10-19 MON (Lab 3)][10-19]] | Lab 3: Computer-Solving Equations (II)  |                                          |   |
+| [[*10-19 MON (Lab 3)][10-19]] | Lab 3: Computer-Solving Equations (II)  |                                          | ✓ |
 | [[*10-20 TUE (Lecture)][10-20]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L11MarkovChains.html][Markov Chains]]                           |                                          |   |
 | [[*10-22 THU (Lecture)][10-22]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L13ComputerGraphics.html][Computer Graphics]]                       | A7 out, A6 due                           |   |
 |-------+-----------------------------------------+------------------------------------------+---|
