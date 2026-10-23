@@ -49,8 +49,8 @@ Crovella]].
 | [[*10-15 THU (Midterm 1)][10-15]] | *Midterm 1*                             | [[file:assignments/assign06.pdf][A6]] out                                   | ✓ |
 |-------+-----------------------------------------+------------------------------------------+---|
 | [[*10-19 MON (Lab 3)][10-19]] | Lab 3: Computer-Solving Equations (II)  |                                          | ✓ |
-| [[*10-20 TUE (Lecture)][10-20]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L11MarkovChains.html][Markov Chains]]                           |                                          |   |
-| [[*10-22 THU (Lecture)][10-22]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L13ComputerGraphics.html][Computer Graphics]]                       | A7 out, A6 due                           |   |
+| [[*10-20 TUE (Lecture)][10-20]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L11MarkovChains.html][Markov Chains]]                           |                                          | ✓ |
+| [[*10-22 THU (Lecture)][10-22]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L13ComputerGraphics.html][Computer Graphics]]                       | [[file:assignments/assign07.pdf][A7]] out, A6 due                           | ✓ |
 |-------+-----------------------------------------+------------------------------------------+---|
 | [[*10-26 MON (Quiz 3)][10-26]] | Quiz 3                                  |                                          |   |
 | [[*10-27 TUE (Lecture)][10-27]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L14Subspaces.html][Subspaces]]                               |                                          |   |
@@ -421,7 +421,7 @@ Piazza./
     a 2D screen
   + Have a bit of fun with linear algebra
 + Notes:
-  + Assignment 7 released
+  + [[file:assignments/assign07.pdf][Assignment 7]] released
 ** 10-26 MON (Quiz 3)
 + Week: 9
 + Topics:
