@@ -52,9 +52,9 @@ Crovella]].
 | [[*10-20 TUE (Lecture)][10-20]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L11MarkovChains.html][Markov Chains]]                           |                                          | ✓ |
 | [[*10-22 THU (Lecture)][10-22]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L13ComputerGraphics.html][Computer Graphics]]                       | [[file:assignments/assign07.pdf][A7]] out, A6 due                           | ✓ |
 |-------+-----------------------------------------+------------------------------------------+---|
-| [[*10-26 MON (Quiz 3)][10-26]] | Quiz 3                                  |                                          |   |
-| [[*10-27 TUE (Lecture)][10-27]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L14Subspaces.html][Subspaces]]                               |                                          |   |
-| [[*10-29 THU (Workshop)][10-29]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L15DimensionRank.html][Dimension and Rank]] (Workshop)           | A8 out, A7 due                           |   |
+| [[*10-26 MON (Quiz 3)][10-26]] | Quiz 3                                  |                                          | ✓ |
+| [[*10-27 TUE (Lecture)][10-27]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L14Subspaces.html][Subspaces]]                               |                                          | ✓ |
+| [[*10-29 THU (Workshop)][10-29]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L15DimensionRank.html][Dimension and Rank]] (Workshop)           | A8 out, A7 due                           | ✓ |
 |-------+-----------------------------------------+------------------------------------------+---|
 | [[*11-02 MON (Lab 4)][11-02]] | Lab 4: Graphics                         |                                          |   |
 | [[*11-03 TUE (Lecture)][11-03]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L16Eigenvectors.html][Eigenvalues and Eigenvectors]]            |                                          |   |
