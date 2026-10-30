@@ -54,7 +54,7 @@ Crovella]].
 |-------+-----------------------------------------+------------------------------------------+---|
 | [[*10-26 MON (Quiz 3)][10-26]] | Quiz 3                                  |                                          | ✓ |
 | [[*10-27 TUE (Lecture)][10-27]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L14Subspaces.html][Subspaces]]                               |                                          | ✓ |
-| [[*10-29 THU (Workshop)][10-29]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L15DimensionRank.html][Dimension and Rank]] (Workshop)           | A8 out, A7 due                           | ✓ |
+| [[*10-29 THU (Workshop)][10-29]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L15DimensionRank.html][Dimension and Rank]] (Workshop)           | [[file:assignments/assign08.pdf][A8]] out, A7 due                           | ✓ |
 |-------+-----------------------------------------+------------------------------------------+---|
 | [[*11-02 MON (Lab 4)][11-02]] | Lab 4: Graphics                         |                                          |   |
 | [[*11-03 TUE (Lecture)][11-03]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L16Eigenvectors.html][Eigenvalues and Eigenvectors]]            |                                          |   |
@@ -474,7 +474,7 @@ Piazza./
   + Relate the dimension of the column space and the null space of a
     matrix
 + Notes:
-  + Assignment 8 released
+  + [[file:assignments/assign08.pdf][Assignment 8]] released
   + Assignment 7 due
 ** 11-02 MON (Lab 4)
 + Week: 10
