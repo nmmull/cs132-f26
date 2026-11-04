@@ -1,0 +1,19 @@
+#+title: Midterm 2 Exam Prep Material
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../style.css" />
+#+OPTIONS: html-style:nil H:2 toc:nil num:nil
+#+HTML_LINK_HOME: ../index.html
+
+[[file:practice-exam.pdf][Practice Exam]]
+
+Above is the midterm we gave last year for this course.  You'll notice
+that many of the problems have already appeared as homework
+assignments; the workbook consists of every problem we've ever asked
+in this course.  The primary value of the exams is to give you a sense
+of how the exam will be structured, and what you should expect both in
+terms of difficulty and length.
+
+As far as topics, you should be familiar with everything up to and
+include the lecture on Dimension and Rank (October 29), excluding the
+material on Computer Graphics (October 22).  This includes everything
+from the [[file:~/Developer/Repositories/cs132/cs132-f26/midterm/midterm-prep.org][Midterm 1 prep material]].  There will generally be a greater
+emphasis on material after what appeared on Midterm 1.

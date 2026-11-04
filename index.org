@@ -58,7 +58,7 @@ Crovella]].
 |-------+-----------------------------------------+------------------------------------------+---|
 | [[*11-02 MON (Lab 4)][11-02]] | Lab 4: Graphics                         |                                          | ✓ |
 | [[*11-03 TUE (Lecture)][11-03]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L16Eigenvectors.html][Eigenvalues and Eigenvectors]]            |                                          | ✓ |
-| [[*11-05 THU (Lecture)][11-05]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L17CharacteristicEqn.html][The Characteristic Equation]]             | A8 due                                   |   |
+| [[*11-05 THU (Lecture)][11-05]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L17CharacteristicEqn.html][The Characteristic Equation]]             | A8 due, [[file:midterm-2/midterm-prep.org][Midterm 2 prep material]]          |   |
 | 11-06 |                                         | Last day to drop w/ "W" or designate P/F |   |
 |-------+-----------------------------------------+------------------------------------------+---|
 | [[*11-09 MON (Midterm Review)][11-09]] | Midterm Review                          |                                          |   |
@@ -523,6 +523,7 @@ Piazza./
   + Connect eigenvalues to polynomials
 + Notes:
   + Assignment 8 due
+  + [[file:midterm-2/midterm-prep.org][Midterm 2 prep material]] out
 ** 11-09 MON (Midterm Review)
 + Week: 11
 + Title:
