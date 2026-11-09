@@ -3,7 +3,7 @@
 #+OPTIONS: html-style:nil H:2 toc:nil num:nil
 #+HTML_LINK_HOME: ../index.html
 
-[[file:practice-exam.pdf][Practice Exam]]
+[[file:practice-exam.pdf][Practice exam]] [[file:practice-exam-sol.pdf][solutions]]
 
 Above is the midterm we gave last year for this course.  You'll notice
 that many of the problems have already appeared as homework
