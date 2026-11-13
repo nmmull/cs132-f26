@@ -61,9 +61,9 @@ Crovella]].
 | [[*11-05 THU (Lecture)][11-05]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L17CharacteristicEqn.html][The Characteristic Equation]]             | A8 due, [[file:midterm-2/midterm-prep.org][Midterm 2 prep material]]          | ✓ |
 | 11-06 |                                         | Last day to drop w/ "W" or designate P/F | ✓ |
 |-------+-----------------------------------------+------------------------------------------+---|
-| [[*11-09 MON (Midterm Review)][11-09]] | Midterm Review                          |                                          |   |
-| [[*11-10 TUE (Midterm 2)][11-10]] | *Midterm 2*                             |                                          |   |
-| [[*11-12 THU (Lecture)][11-12]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L18Diagonalization.html][Diagonalization]]                         | A9 out                                   |   |
+| [[*11-09 MON (Midterm Review)][11-09]] | Midterm Review                          |                                          | ✓ |
+| [[*11-10 TUE (Midterm 2)][11-10]] | *Midterm 2*                             |                                          | ✓ |
+| [[*11-12 THU (Lecture)][11-12]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L18Diagonalization.html][Diagonalization]]                         | [[file:assignments/assign09.pdf][A9]] out                                   | ✓ |
 |-------+-----------------------------------------+------------------------------------------+---|
 | [[*11-16 MON (Quiz 4)][11-16]] | Quiz 4                                  |                                          |   |
 | [[*11-17 TUE (Lecture)][11-17]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L20Orthogonality.html][Orthogonality]]                           |                                          |   |
@@ -549,7 +549,7 @@ Piazza./
   + Examine another matrix factorization related to basis changes
   + Walk through how to diagonalize a matrix
 + Notes:
-  + Assignment 9 released
+  + [[file:assignments/assign09.pdf][Assignment 9]] released
 ** 11-16 MON (Quiz 4)
 + Week: 12
 + Topics:
