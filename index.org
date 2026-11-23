@@ -65,7 +65,7 @@ Crovella]].
 | [[*11-10 TUE (Midterm 2)][11-10]] | *Midterm 2*                             |                                          | ✓ |
 | [[*11-12 THU (Lecture)][11-12]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L18Diagonalization.html][Diagonalization]]                         | [[file:assignments/assign09.pdf][A9]] out                                   | ✓ |
 |-------+-----------------------------------------+------------------------------------------+---|
-| [[*11-16 MON (Quiz 4)][11-16]] | /Open office hours/                                  |                                          |   |
+| [[*11-16 MON (Open Office Hours)][11-16]] |  Open Office Hours                                |                                          |   |
 | [[*11-17 TUE (Lecture)][11-17]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L20Orthogonality.html][Orthogonality]]                           |                                          |   |
 | [[*11-19 THU (Workshop)][11-19]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L21OrthogonalSets.html][Orthogonal Projection]] (Workshop)        | [[file:assignments/assign10.pdf][A10]] out, A9 due                          |   |
 |-------+-----------------------------------------+------------------------------------------+---|
@@ -550,7 +550,7 @@ Piazza./
   + Walk through how to diagonalize a matrix
 + Notes:
   + [[file:assignments/assign09.pdf][Assignment 9]] released
-** 11-16 MON
+** 11-16 MON (Open Office Hours)
 + Week: 12
 ** 11-17 TUE (Lecture)
 + Week: 12

@@ -3,61 +3,97 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-11-22 Sun 20:35 -->
+<!-- 2026-11-22 Sun 22:31 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>CAS CS 132</title>
-<meta name="author" content="Nathan" />
-<meta name="generator" content="Org Mode" />
+<meta name="generator" content="Org mode" />
+<meta name="author" content="ChienX19thGen" />
 <link rel="stylesheet" type="text/css" href="style.css" />
-<script>
-  window.MathJax = {
-    tex: {
-      ams: {
-        multlineWidth: '85%'
-      },
-      tags: 'ams',
-      tagSide: 'right',
-      tagIndent: '.8em'
-    },
-    chtml: {
-      scale: 1.0,
-      displayAlign: 'center',
-      displayIndent: '0em'
-    },
-    svg: {
-      scale: 1.0,
-      displayAlign: 'center',
-      displayIndent: '0em'
-    },
-    output: {
-      font: 'mathjax-modern',
-      displayOverflow: 'overflow'
-    }
-  };
-</script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
 
-<script
-  id="MathJax-script"
-  async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
 </script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
-<div id="content" class="content">
+<div id="content">
 <h1 class="title">CAS CS 132
 <br />
 <span class="subtitle">Geometric Algorithms</span>
 </h1>
-<div id="table-of-contents" role="doc-toc">
+<div id="table-of-contents">
 <h2>Table of Contents</h2>
-<div id="text-table-of-contents" role="doc-toc">
+<div id="text-table-of-contents">
 <ul>
-<li><a href="#org5214024">Links</a></li>
-<li><a href="#org66d1238">Schedule (Compact)</a></li>
-<li><a href="#orgcc52bab">Calendar</a></li>
-<li><a href="#orgf65e83e">Course Staff</a></li>
-<li><a href="#org2e444de">Schedule (Full)</a></li>
+<li><a href="#org293ecbb">Links</a></li>
+<li><a href="#org1a267ba">Schedule (Compact)</a></li>
+<li><a href="#orgebd45e9">Calendar</a></li>
+<li><a href="#org715c830">Course Staff</a></li>
+<li><a href="#orgaa72ed2">Schedule (Full)</a></li>
 </ul>
 </div>
 </div>
@@ -69,9 +105,10 @@ applications in computer science. It's based heavily on (and depends
 on the material for) the version of the course taught by <a href="https://www.cs.bu.edu/fac/crovella/">Mark
 Crovella</a>.
 </p>
-<div id="outline-container-org5214024" class="outline-2">
-<h2 id="org5214024">Links</h2>
-<div class="outline-text-2" id="text-org5214024">
+
+<div id="outline-container-org293ecbb" class="outline-2">
+<h2 id="org293ecbb">Links</h2>
+<div class="outline-text-2" id="text-org293ecbb">
 <ul class="org-ul">
 <li><a href="course-manual.pdf">Course Manual</a></li>
 <li><a href="workbook/v1-2.pdf">Course Workbook</a></li>
@@ -81,9 +118,9 @@ Crovella</a>.
 </ul>
 </div>
 </div>
-<div id="outline-container-org66d1238" class="outline-2">
-<h2 id="org66d1238">Schedule (Compact)</h2>
-<div class="outline-text-2" id="text-org66d1238">
+<div id="outline-container-org1a267ba" class="outline-2">
+<h2 id="org1a267ba">Schedule (Compact)</h2>
+<div class="outline-text-2" id="text-org1a267ba">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -101,12 +138,12 @@ Crovella</a>.
 <th scope="col" class="org-left">Date</th>
 <th scope="col" class="org-left">Topic</th>
 <th scope="col" class="org-left">Notes</th>
-<th scope="col" class="org-left">&nbsp;</th>
+<th scope="col" class="org-left">&#xa0;</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="org-left"><a href="#org1fd9787">09-03</a></td>
+<td class="org-left"><a href="#org1c7b80f">09-03</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L01LinearEquations.html">Solving Linear Systems</a></td>
 <td class="org-left">Read course manual, <a href="assignments/assign01.pdf">A1</a> out</td>
 <td class="org-left">✓</td>
@@ -121,14 +158,14 @@ Crovella</a>.
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orge4694aa">09-08</a></td>
+<td class="org-left"><a href="#org9f9b8f2">09-08</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L01LinearEquations.html">Echelon Forms</a></td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org0a78365">09-10</a></td>
+<td class="org-left"><a href="#orgb9f84be">09-10</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L03RowReductions.html">Gaussian Elimination</a></td>
 <td class="org-left"><a href="assignments/assign02.pdf">A2</a> out, A1 due</td>
 <td class="org-left">✓</td>
@@ -136,28 +173,28 @@ Crovella</a>.
 </tbody>
 <tbody>
 <tr>
-<td class="org-left"><a href="#org253105f">09-14</a></td>
+<td class="org-left"><a href="#orgb491fe7">09-14</a></td>
 <td class="org-left">Lab 1: <a href="labs/1/lab1.pdf">NumPy, SciPy, and Linear Algebra</a></td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgba8921a">09-15</a></td>
+<td class="org-left"><a href="#orga428d52">09-15</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L04VectorEquations.html">Vector Equations</a></td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
 <td class="org-left">09-16</td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">Last day to add or change to audit</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org7560345">09-17</a></td>
+<td class="org-left"><a href="#orge192994">09-17</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L05Axb.html">Matrix-Vector Equations</a> (Workshop)</td>
 <td class="org-left"><a href="assignments/assign03.pdf">A3</a> out, A2 due</td>
 <td class="org-left">✓</td>
@@ -165,21 +202,21 @@ Crovella</a>.
 </tbody>
 <tbody>
 <tr>
-<td class="org-left"><a href="#org3bd0292">09-21</a></td>
+<td class="org-left"><a href="#orgaef9c1e">09-21</a></td>
 <td class="org-left">Quiz 1</td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org1b7f039">09-22</a></td>
+<td class="org-left"><a href="#orgff6a361">09-22</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L06LinearIndependence.html">Linear Independence</a></td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgbed8512">09-24</a></td>
+<td class="org-left"><a href="#orga002785">09-24</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L07LinearTransformations.html">Linear Transformations</a></td>
 <td class="org-left"><a href="assignments/assign04.pdf">A4</a> out, A3 due</td>
 <td class="org-left">✓</td>
@@ -187,21 +224,21 @@ Crovella</a>.
 </tbody>
 <tbody>
 <tr>
-<td class="org-left"><a href="#orgbba0caf">09-28</a></td>
+<td class="org-left"><a href="#orgd6ff027">09-28</a></td>
 <td class="org-left">Lab 2: <a href="labs/2/lab2.pdf">Computer-Solving Equations (I)</a></td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org9f5bfbb">09-29</a></td>
+<td class="org-left"><a href="#org61ef6a4">09-29</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L08MatrixofLinearTranformation.html">Matrix Transformations</a></td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org943962d">10-01</a></td>
+<td class="org-left"><a href="#org90f8c8e">10-01</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L09MatrixOperations.html">Matrix Algebra</a> (Workshop)</td>
 <td class="org-left"><a href="assignments/assign05.pdf">A5</a> out, A4 due</td>
 <td class="org-left">✓</td>
@@ -209,28 +246,28 @@ Crovella</a>.
 </tbody>
 <tbody>
 <tr>
-<td class="org-left"><a href="#org9cc12fa">10-05</a></td>
+<td class="org-left"><a href="#orgc1daf0e">10-05</a></td>
 <td class="org-left">Quiz 2</td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org3efd3a2">10-06</a></td>
+<td class="org-left"><a href="#orgecf469e">10-06</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L10MatrixInverse.html">Matrix Inverses</a></td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
 <td class="org-left">10-07</td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">Last day to drop w/o a "W"</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org5937787">10-08</a></td>
+<td class="org-left"><a href="#orgfa13055">10-08</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L12MatrixFactorizations.html">LU Factorization</a></td>
 <td class="org-left">A5 due, <a href="midterm/midterm-prep.html">Midterm prep material</a></td>
 <td class="org-left">✓</td>
@@ -245,14 +282,14 @@ Crovella</a>.
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org6cda0e0">10-13</a></td>
+<td class="org-left"><a href="#org299c8f2">10-13</a></td>
 <td class="org-left">Midterm Review</td>
 <td class="org-left">Substitute Monday</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org5f3d80d">10-15</a></td>
+<td class="org-left"><a href="#org0d8c407">10-15</a></td>
 <td class="org-left"><b>Midterm 1</b></td>
 <td class="org-left"><a href="assignments/assign06.pdf">A6</a> out</td>
 <td class="org-left">✓</td>
@@ -260,21 +297,21 @@ Crovella</a>.
 </tbody>
 <tbody>
 <tr>
-<td class="org-left"><a href="#org783e2f0">10-19</a></td>
+<td class="org-left"><a href="#org9854d44">10-19</a></td>
 <td class="org-left">Lab 3: <a href="labs/3/spec.pdf">Computer-Solving Equations (II)</a></td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org8ca77a1">10-20</a></td>
+<td class="org-left"><a href="#orgf8ee6c5">10-20</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L11MarkovChains.html">Markov Chains</a></td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org134dd82">10-22</a></td>
+<td class="org-left"><a href="#orgb921a10">10-22</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L13ComputerGraphics.html">Computer Graphics</a></td>
 <td class="org-left"><a href="assignments/assign07.pdf">A7</a> out, A6 due</td>
 <td class="org-left">✓</td>
@@ -282,21 +319,21 @@ Crovella</a>.
 </tbody>
 <tbody>
 <tr>
-<td class="org-left"><a href="#org994403e">10-26</a></td>
+<td class="org-left"><a href="#org806367c">10-26</a></td>
 <td class="org-left">Quiz 3</td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org27598c6">10-27</a></td>
+<td class="org-left"><a href="#orgb082429">10-27</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L14Subspaces.html">Subspaces</a></td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgba47d80">10-29</a></td>
+<td class="org-left"><a href="#org8efe1e8">10-29</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L15DimensionRank.html">Dimension and Rank</a> (Workshop)</td>
 <td class="org-left"><a href="assignments/assign08.pdf">A8</a> out, A7 due</td>
 <td class="org-left">✓</td>
@@ -304,21 +341,21 @@ Crovella</a>.
 </tbody>
 <tbody>
 <tr>
-<td class="org-left"><a href="#orgabdf3e9">11-02</a></td>
+<td class="org-left"><a href="#orgabc9e6d">11-02</a></td>
 <td class="org-left">Lab 4: <a href="labs/4/lab4.pdf">Graphics</a></td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org5867a63">11-03</a></td>
+<td class="org-left"><a href="#orgaf068b2">11-03</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L16Eigenvectors.html">Eigenvalues and Eigenvectors</a></td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org0ef7e67">11-05</a></td>
+<td class="org-left"><a href="#orged2c1de">11-05</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L17CharacteristicEqn.html">The Characteristic Equation</a></td>
 <td class="org-left">A8 due, <a href="midterm-2/midterm-prep.html">Midterm 2 prep material</a></td>
 <td class="org-left">✓</td>
@@ -326,28 +363,28 @@ Crovella</a>.
 
 <tr>
 <td class="org-left">11-06</td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">Last day to drop w/ "W" or designate P/F</td>
 <td class="org-left">✓</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="org-left"><a href="#orga24b5e0">11-09</a></td>
+<td class="org-left"><a href="#org1558365">11-09</a></td>
 <td class="org-left">Midterm Review</td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org6b3b7ba">11-10</a></td>
+<td class="org-left"><a href="#orgfe5f8e1">11-10</a></td>
 <td class="org-left"><b>Midterm 2</b></td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">✓</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org1ba7963">11-12</a></td>
+<td class="org-left"><a href="#orgf022ac6">11-12</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L18Diagonalization.html">Diagonalization</a></td>
 <td class="org-left"><a href="assignments/assign09.pdf">A9</a> out</td>
 <td class="org-left">✓</td>
@@ -355,112 +392,112 @@ Crovella</a>.
 </tbody>
 <tbody>
 <tr>
-<td class="org-left"><a href="#org37730c4">11-16</a></td>
-<td class="org-left"><i>Open office hours</i></td>
-<td class="org-left">&nbsp;</td>
-<td class="org-left">✓</td>
+<td class="org-left"><a href="#org3d82862">11-16</a></td>
+<td class="org-left">Open Office Hours</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org44ad066">11-17</a></td>
+<td class="org-left"><a href="#orgf7c99fa">11-17</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L20Orthogonality.html">Orthogonality</a></td>
-<td class="org-left">&nbsp;</td>
-<td class="org-left">✓</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org48855e9">11-19</a></td>
+<td class="org-left"><a href="#org40362eb">11-19</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L21OrthogonalSets.html">Orthogonal Projection</a> (Workshop)</td>
-<td class="org-left">A10 out, A9 due</td>
-<td class="org-left">✓</td>
+<td class="org-left"><a href="assignments/assign10.pdf">A10</a> out, A9 due</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="org-left"><a href="#org22d4de5">11-23</a></td>
+<td class="org-left"><a href="#orgc747373">11-23</a></td>
 <td class="org-left">Lab 5: <a href="labs/5/spec.pdf">PageRank</a> (<a href="https://drive.google.com/file/d/1an81bdr86R209AdGyKLpyGS3htFpWas1/view?usp=share_link">lab5.zip</a>)</td>
-<td class="org-left">&nbsp;</td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgf0ac117">11-24</a></td>
+<td class="org-left"><a href="#orgd29a7c9">11-24</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L22LeastSquares.html">Least Squares</a></td>
-<td class="org-left">&nbsp;</td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
 <td class="org-left">11-26</td>
 <td class="org-left"><b>No Lecture</b></td>
 <td class="org-left">Thanksgiving Recess</td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="org-left"><a href="#org3ee0042">11-30</a></td>
+<td class="org-left"><a href="#org07cd197">11-30</a></td>
 <td class="org-left">Quiz 4</td>
-<td class="org-left">&nbsp;</td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgeeb30db">12-01</a></td>
+<td class="org-left"><a href="#orgf700146">12-01</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L23LinearModels.html">Linear Models</a></td>
-<td class="org-left">&nbsp;</td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#org2b22d4c">12-03</a></td>
+<td class="org-left"><a href="#org0059e2d">12-03</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L24SymmetricMatrices.html">Quadratic Forms</a> (Workshop)</td>
 <td class="org-left">A11 out, A10 due</td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="org-left"><a href="#org35287ff">12-07</a></td>
+<td class="org-left"><a href="#orgb7c1127">12-07</a></td>
 <td class="org-left">Quiz 5</td>
-<td class="org-left">&nbsp;</td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orge46d22b">12-08</a></td>
+<td class="org-left"><a href="#org99ba7f8">12-08</a></td>
 <td class="org-left"><a href="http://mcrovella.github.io/CS132-Geometric-Algorithms/L25SVD.html">Singular Value Decomposition</a></td>
-<td class="org-left">&nbsp;</td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 <tr>
-<td class="org-left"><a href="#orgdd7a4ca">12-10</a></td>
+<td class="org-left"><a href="#org8c4527a">12-10</a></td>
 <td class="org-left"><a href="https://mcrovella.github.io/CS132-Geometric-Algorithms/L26ApplicationsOfSVD.html">Applications of SVD</a>, Final Exam Review</td>
 <td class="org-left">A11 due</td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="org-left"><a href="#org351eed3">12-15</a></td>
+<td class="org-left"><a href="#orgb74ebdd">12-15</a></td>
 <td class="org-left"><b>Final Exam</b></td>
 <td class="org-left">12:00PM-2:00PM</td>
-<td class="org-left">&nbsp;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-<div id="outline-container-orgcc52bab" class="outline-2">
-<h2 id="orgcc52bab">Calendar</h2>
-<div class="outline-text-2" id="text-orgcc52bab">
+<div id="outline-container-orgebd45e9" class="outline-2">
+<h2 id="orgebd45e9">Calendar</h2>
+<div class="outline-text-2" id="text-orgebd45e9">
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&showTitle=0&showTabs=0&showCalendars=0&showTz=0&mode=WEEK&src=Y18xNmFlZmQ1NDllYWEzYjgyNmY2YTk0YzAwNzQ4ZDVhYTA0NjBmZjkzYTZhYTAyMzAwNDhiODg0YjMwMTdjMzM2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%233f51b5" style="border-width:0" width="900" height="600" frameborder="0" scrolling="no"></iframe>
 </div>
 </div>
-<div id="outline-container-orgf65e83e" class="outline-2">
-<h2 id="orgf65e83e">Course Staff</h2>
-<div class="outline-text-2" id="text-orgf65e83e">
+<div id="outline-container-org715c830" class="outline-2">
+<h2 id="org715c830">Course Staff</h2>
+<div class="outline-text-2" id="text-org715c830">
 <ul class="org-ul">
 <li>Instructors: <a href="https://cs-people.bu.edu/edchien/">Ed Chien</a> and <a href="https://nmmull.github.io">Nathan Mull</a></li>
 <li>Teaching Fellow: <a href="https://erickjb.com">Erick Jimenez Berumen</a></li>
@@ -470,19 +507,19 @@ Crovella</a>.
 
 
 <p>
-<i>Do not contact course staff directly except in extenuating
+/Do not contact course staff directly except in extenuating
 circumstances. If you have course-related questions/concerns, post on
-Piazza.</i>
+Piazza./
 </p>
 </div>
 </div>
-<div id="outline-container-org2e444de" class="outline-2">
-<h2 id="org2e444de">Schedule (Full)</h2>
-<div class="outline-text-2" id="text-org2e444de">
+<div id="outline-container-orgaa72ed2" class="outline-2">
+<h2 id="orgaa72ed2">Schedule (Full)</h2>
+<div class="outline-text-2" id="text-orgaa72ed2">
 </div>
-<div id="outline-container-org1fd9787" class="outline-3">
-<h3 id="org1fd9787">09-03 THU (Lecture)</h3>
-<div class="outline-text-3" id="text-org1fd9787">
+<div id="outline-container-org1c7b80f" class="outline-3">
+<h3 id="org1c7b80f">09-03 THU (Lecture)</h3>
+<div class="outline-text-3" id="text-org1c7b80f">
 <ul class="org-ul">
 <li>Week: 1</li>
 <li>Title: Solving Linear Systems</li>
@@ -531,9 +568,9 @@ can be operated on)</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orge4694aa" class="outline-3">
-<h3 id="orge4694aa">09-08 TUE (Lecture)</h3>
-<div class="outline-text-3" id="text-orge4694aa">
+<div id="outline-container-org9f9b8f2" class="outline-3">
+<h3 id="org9f9b8f2">09-08 TUE (Lecture)</h3>
+<div class="outline-text-3" id="text-org9f9b8f2">
 <ul class="org-ul">
 <li>Week: 2</li>
 <li>Title: Echelon Forms</li>
@@ -575,9 +612,9 @@ can be operated on)</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org0a78365" class="outline-3">
-<h3 id="org0a78365">09-10 THU (Lecture)</h3>
-<div class="outline-text-3" id="text-org0a78365">
+<div id="outline-container-orgb9f84be" class="outline-3">
+<h3 id="orgb9f84be">09-10 THU (Lecture)</h3>
+<div class="outline-text-3" id="text-orgb9f84be">
 <ul class="org-ul">
 <li>Week: 2</li>
 <li>Title: Gaussian Elimination</li>
@@ -609,18 +646,18 @@ floating-point numbers</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org253105f" class="outline-3">
-<h3 id="org253105f">09-14 MON (Lab 1)</h3>
-<div class="outline-text-3" id="text-org253105f">
+<div id="outline-container-orgb491fe7" class="outline-3">
+<h3 id="orgb491fe7">09-14 MON (Lab 1)</h3>
+<div class="outline-text-3" id="text-orgb491fe7">
 <ul class="org-ul">
 <li>Week: 3</li>
 <li>Title: NumPy, SciPy, and Linear Algebra</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgba8921a" class="outline-3">
-<h3 id="orgba8921a">09-15 TUE (Lecture)</h3>
-<div class="outline-text-3" id="text-orgba8921a">
+<div id="outline-container-orga428d52" class="outline-3">
+<h3 id="orga428d52">09-15 TUE (Lecture)</h3>
+<div class="outline-text-3" id="text-orga428d52">
 <ul class="org-ul">
 <li>Week: 3</li>
 <li>Title: Vector Equations</li>
@@ -656,9 +693,9 @@ systems of linear equations</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org7560345" class="outline-3">
-<h3 id="org7560345">09-17 THU (Workshop)</h3>
-<div class="outline-text-3" id="text-org7560345">
+<div id="outline-container-orge192994" class="outline-3">
+<h3 id="orge192994">09-17 THU (Workshop)</h3>
+<div class="outline-text-3" id="text-orge192994">
 <ul class="org-ul">
 <li>Week: 3</li>
 <li>Title: Matrix-Vector Equations</li>
@@ -697,9 +734,9 @@ systems</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org3bd0292" class="outline-3">
-<h3 id="org3bd0292">09-21 MON (Quiz 1)</h3>
-<div class="outline-text-3" id="text-org3bd0292">
+<div id="outline-container-orgaef9c1e" class="outline-3">
+<h3 id="orgaef9c1e">09-21 MON (Quiz 1)</h3>
+<div class="outline-text-3" id="text-orgaef9c1e">
 <ul class="org-ul">
 <li>Week: 4</li>
 <li>Topics:
@@ -711,9 +748,9 @@ systems</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org1b7f039" class="outline-3">
-<h3 id="org1b7f039">09-22 TUE (Lecture)</h3>
-<div class="outline-text-3" id="text-org1b7f039">
+<div id="outline-container-orgff6a361" class="outline-3">
+<h3 id="orgff6a361">09-22 TUE (Lecture)</h3>
+<div class="outline-text-3" id="text-orgff6a361">
 <ul class="org-ul">
 <li>Week: 4</li>
 <li>Title: Linear Independence</li>
@@ -748,9 +785,9 @@ matrix says about the linear dependence of its columns)</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbed8512" class="outline-3">
-<h3 id="orgbed8512">09-24 THU (Lecture)</h3>
-<div class="outline-text-3" id="text-orgbed8512">
+<div id="outline-container-orga002785" class="outline-3">
+<h3 id="orga002785">09-24 THU (Lecture)</h3>
+<div class="outline-text-3" id="text-orga002785">
 <ul class="org-ul">
 <li>Week: 4</li>
 <li>Title: Linear Transformations</li>
@@ -796,18 +833,18 @@ the assignment.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbba0caf" class="outline-3">
-<h3 id="orgbba0caf">09-28 MON (Lab 2)</h3>
-<div class="outline-text-3" id="text-orgbba0caf">
+<div id="outline-container-orgd6ff027" class="outline-3">
+<h3 id="orgd6ff027">09-28 MON (Lab 2)</h3>
+<div class="outline-text-3" id="text-orgd6ff027">
 <ul class="org-ul">
 <li>Week: 5</li>
 <li>Title: Computer-Solving Equations (I)</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org9f5bfbb" class="outline-3">
-<h3 id="org9f5bfbb">09-29 TUE (Lecture)</h3>
-<div class="outline-text-3" id="text-org9f5bfbb">
+<div id="outline-container-org61ef6a4" class="outline-3">
+<h3 id="org61ef6a4">09-29 TUE (Lecture)</h3>
+<div class="outline-text-3" id="text-org61ef6a4">
 <ul class="org-ul">
 <li>Week: 5</li>
 <li>Title: Matrix Transformations</li>
@@ -842,9 +879,9 @@ parts</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org943962d" class="outline-3">
-<h3 id="org943962d">10-01 THU (Workshop)</h3>
-<div class="outline-text-3" id="text-org943962d">
+<div id="outline-container-org90f8c8e" class="outline-3">
+<h3 id="org90f8c8e">10-01 THU (Workshop)</h3>
+<div class="outline-text-3" id="text-org90f8c8e">
 <ul class="org-ul">
 <li>Week: 5</li>
 <li>Title: Matrix Algebra</li>
@@ -883,9 +920,9 @@ transformations</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org9cc12fa" class="outline-3">
-<h3 id="org9cc12fa">10-05 MON (Quiz 2)</h3>
-<div class="outline-text-3" id="text-org9cc12fa">
+<div id="outline-container-orgc1daf0e" class="outline-3">
+<h3 id="orgc1daf0e">10-05 MON (Quiz 2)</h3>
+<div class="outline-text-3" id="text-orgc1daf0e">
 <ul class="org-ul">
 <li>Week: 6</li>
 <li>Topics:
@@ -897,9 +934,9 @@ transformations</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org3efd3a2" class="outline-3">
-<h3 id="org3efd3a2">10-06 TUE (Lecture)</h3>
-<div class="outline-text-3" id="text-org3efd3a2">
+<div id="outline-container-orgecf469e" class="outline-3">
+<h3 id="orgecf469e">10-06 TUE (Lecture)</h3>
+<div class="outline-text-3" id="text-orgecf469e">
 <ul class="org-ul">
 <li>Week: 6</li>
 <li>Title: Matrix Inverses</li>
@@ -935,9 +972,9 @@ transformations</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org5937787" class="outline-3">
-<h3 id="org5937787">10-08 THU (Lecture)</h3>
-<div class="outline-text-3" id="text-org5937787">
+<div id="outline-container-orgfa13055" class="outline-3">
+<h3 id="orgfa13055">10-08 THU (Lecture)</h3>
+<div class="outline-text-3" id="text-orgfa13055">
 <ul class="org-ul">
 <li>Week: 6</li>
 <li>Title: LU Factorization</li>
@@ -973,17 +1010,17 @@ multiple matrix equations (over the same matrix)</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org6cda0e0" class="outline-3">
-<h3 id="org6cda0e0">10-13 TUE (Midterm Review)</h3>
-<div class="outline-text-3" id="text-org6cda0e0">
+<div id="outline-container-org299c8f2" class="outline-3">
+<h3 id="org299c8f2">10-13 TUE (Midterm Review)</h3>
+<div class="outline-text-3" id="text-org299c8f2">
 <ul class="org-ul">
 <li>Week: 7</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org5f3d80d" class="outline-3">
-<h3 id="org5f3d80d">10-15 THU (Midterm 1)</h3>
-<div class="outline-text-3" id="text-org5f3d80d">
+<div id="outline-container-org0d8c407" class="outline-3">
+<h3 id="org0d8c407">10-15 THU (Midterm 1)</h3>
+<div class="outline-text-3" id="text-org0d8c407">
 <ul class="org-ul">
 <li>Week: 7</li>
 <li>Notes:
@@ -993,18 +1030,18 @@ multiple matrix equations (over the same matrix)</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org783e2f0" class="outline-3">
-<h3 id="org783e2f0">10-19 MON (Lab 3)</h3>
-<div class="outline-text-3" id="text-org783e2f0">
+<div id="outline-container-org9854d44" class="outline-3">
+<h3 id="org9854d44">10-19 MON (Lab 3)</h3>
+<div class="outline-text-3" id="text-org9854d44">
 <ul class="org-ul">
 <li>Week: 8</li>
 <li>Title: Computer-Solving Equations (II)</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org8ca77a1" class="outline-3">
-<h3 id="org8ca77a1">10-20 TUE (Lecture)</h3>
-<div class="outline-text-3" id="text-org8ca77a1">
+<div id="outline-container-orgf8ee6c5" class="outline-3">
+<h3 id="orgf8ee6c5">10-20 TUE (Lecture)</h3>
+<div class="outline-text-3" id="text-orgf8ee6c5">
 <ul class="org-ul">
 <li>Week: 8</li>
 <li>Title: Markov Chains</li>
@@ -1037,9 +1074,9 @@ dynamical systems</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org134dd82" class="outline-3">
-<h3 id="org134dd82">10-22 THU (Lecture)</h3>
-<div class="outline-text-3" id="text-org134dd82">
+<div id="outline-container-orgb921a10" class="outline-3">
+<h3 id="orgb921a10">10-22 THU (Lecture)</h3>
+<div class="outline-text-3" id="text-orgb921a10">
 <ul class="org-ul">
 <li>Week: 8</li>
 <li>Title: Computer Graphics</li>
@@ -1076,9 +1113,9 @@ a 2D screen</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org994403e" class="outline-3">
-<h3 id="org994403e">10-26 MON (Quiz 3)</h3>
-<div class="outline-text-3" id="text-org994403e">
+<div id="outline-container-org806367c" class="outline-3">
+<h3 id="org806367c">10-26 MON (Quiz 3)</h3>
+<div class="outline-text-3" id="text-org806367c">
 <ul class="org-ul">
 <li>Week: 9</li>
 <li>Topics:
@@ -1091,9 +1128,9 @@ a 2D screen</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org27598c6" class="outline-3">
-<h3 id="org27598c6">10-27 TUE (Lecture)</h3>
-<div class="outline-text-3" id="text-org27598c6">
+<div id="outline-container-orgb082429" class="outline-3">
+<h3 id="orgb082429">10-27 TUE (Lecture)</h3>
+<div class="outline-text-3" id="text-orgb082429">
 <ul class="org-ul">
 <li>Week: 9</li>
 <li>Title: Subspaces</li>
@@ -1130,9 +1167,9 @@ equations</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgba47d80" class="outline-3">
-<h3 id="orgba47d80">10-29 THU (Workshop)</h3>
-<div class="outline-text-3" id="text-orgba47d80">
+<div id="outline-container-org8efe1e8" class="outline-3">
+<h3 id="org8efe1e8">10-29 THU (Workshop)</h3>
+<div class="outline-text-3" id="text-org8efe1e8">
 <ul class="org-ul">
 <li>Week: 9</li>
 <li>Title: Dimension and Rank</li>
@@ -1176,18 +1213,18 @@ matrix</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgabdf3e9" class="outline-3">
-<h3 id="orgabdf3e9">11-02 MON (Lab 4)</h3>
-<div class="outline-text-3" id="text-orgabdf3e9">
+<div id="outline-container-orgabc9e6d" class="outline-3">
+<h3 id="orgabc9e6d">11-02 MON (Lab 4)</h3>
+<div class="outline-text-3" id="text-orgabc9e6d">
 <ul class="org-ul">
 <li>Week: 10</li>
 <li>Title: Graphics</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org5867a63" class="outline-3">
-<h3 id="org5867a63">11-03 TUE (Lecture)</h3>
-<div class="outline-text-3" id="text-org5867a63">
+<div id="outline-container-orgaf068b2" class="outline-3">
+<h3 id="orgaf068b2">11-03 TUE (Lecture)</h3>
+<div class="outline-text-3" id="text-orgaf068b2">
 <ul class="org-ul">
 <li>Week: 10</li>
 <li>Title: Eigenvalues and Eigenvectors</li>
@@ -1220,9 +1257,9 @@ are "just stretched" by a matrix</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org0ef7e67" class="outline-3">
-<h3 id="org0ef7e67">11-05 THU (Lecture)</h3>
-<div class="outline-text-3" id="text-org0ef7e67">
+<div id="outline-container-orged2c1de" class="outline-3">
+<h3 id="orged2c1de">11-05 THU (Lecture)</h3>
+<div class="outline-text-3" id="text-orged2c1de">
 <ul class="org-ul">
 <li>Week: 10</li>
 <li>Title: The Characteristic Equation</li>
@@ -1264,25 +1301,25 @@ are "just stretched" by a matrix</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orga24b5e0" class="outline-3">
-<h3 id="orga24b5e0">11-09 MON (Midterm Review)</h3>
-<div class="outline-text-3" id="text-orga24b5e0">
+<div id="outline-container-org1558365" class="outline-3">
+<h3 id="org1558365">11-09 MON (Midterm Review)</h3>
+<div class="outline-text-3" id="text-org1558365">
 <ul class="org-ul">
 <li>Week: 11</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org6b3b7ba" class="outline-3">
-<h3 id="org6b3b7ba">11-10 TUE (Midterm 2)</h3>
-<div class="outline-text-3" id="text-org6b3b7ba">
+<div id="outline-container-orgfe5f8e1" class="outline-3">
+<h3 id="orgfe5f8e1">11-10 TUE (Midterm 2)</h3>
+<div class="outline-text-3" id="text-orgfe5f8e1">
 <ul class="org-ul">
 <li>Week: 11</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org1ba7963" class="outline-3">
-<h3 id="org1ba7963">11-12 THU (Lecture)</h3>
-<div class="outline-text-3" id="text-org1ba7963">
+<div id="outline-container-orgf022ac6" class="outline-3">
+<h3 id="orgf022ac6">11-12 THU (Lecture)</h3>
+<div class="outline-text-3" id="text-orgf022ac6">
 <ul class="org-ul">
 <li>Week: 11</li>
 <li>Title: Diagonalization</li>
@@ -1318,17 +1355,17 @@ are "just stretched" by a matrix</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org37730c4" class="outline-3">
-<h3 id="org37730c4">11-16 MON</h3>
-<div class="outline-text-3" id="text-org37730c4">
+<div id="outline-container-org3d82862" class="outline-3">
+<h3 id="org3d82862">11-16 MON (Open Office Hours)</h3>
+<div class="outline-text-3" id="text-org3d82862">
 <ul class="org-ul">
 <li>Week: 12</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org44ad066" class="outline-3">
-<h3 id="org44ad066">11-17 TUE (Lecture)</h3>
-<div class="outline-text-3" id="text-org44ad066">
+<div id="outline-container-orgf7c99fa" class="outline-3">
+<h3 id="orgf7c99fa">11-17 TUE (Lecture)</h3>
+<div class="outline-text-3" id="text-orgf7c99fa">
 <ul class="org-ul">
 <li>Week: 12</li>
 <li>Title: Orthogonality</li>
@@ -1362,9 +1399,9 @@ orthogonality</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org48855e9" class="outline-3">
-<h3 id="org48855e9">11-19 THU (Workshop)</h3>
-<div class="outline-text-3" id="text-org48855e9">
+<div id="outline-container-org40362eb" class="outline-3">
+<h3 id="org40362eb">11-19 THU (Workshop)</h3>
+<div class="outline-text-3" id="text-org40362eb">
 <ul class="org-ul">
 <li>Week: 12</li>
 <li>Title: Orthogonal Projection</li>
@@ -1403,18 +1440,18 @@ of a vector in a subspace</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org22d4de5" class="outline-3">
-<h3 id="org22d4de5">11-23 MON (Lab 5)</h3>
-<div class="outline-text-3" id="text-org22d4de5">
+<div id="outline-container-orgc747373" class="outline-3">
+<h3 id="orgc747373">11-23 MON (Lab 5)</h3>
+<div class="outline-text-3" id="text-orgc747373">
 <ul class="org-ul">
 <li>Week: 13</li>
 <li>Title: Matrix Decompositions</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf0ac117" class="outline-3">
-<h3 id="orgf0ac117">11-24 TUE (Lecture)</h3>
-<div class="outline-text-3" id="text-orgf0ac117">
+<div id="outline-container-orgd29a7c9" class="outline-3">
+<h3 id="orgd29a7c9">11-24 TUE (Lecture)</h3>
+<div class="outline-text-3" id="text-orgd29a7c9">
 <ul class="org-ul">
 <li>Week: 13</li>
 <li>Title: Least Squares</li>
@@ -1447,18 +1484,18 @@ least squares solutions</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org3ee0042" class="outline-3">
-<h3 id="org3ee0042">11-30 MON (Quiz 4)</h3>
-<div class="outline-text-3" id="text-org3ee0042">
+<div id="outline-container-org07cd197" class="outline-3">
+<h3 id="org07cd197">11-30 MON (Quiz 4)</h3>
+<div class="outline-text-3" id="text-org07cd197">
 <ul class="org-ul">
 <li>Week: 14</li>
 <li>Topics:</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgeeb30db" class="outline-3">
-<h3 id="orgeeb30db">12-01 TUE (Lecture)</h3>
-<div class="outline-text-3" id="text-orgeeb30db">
+<div id="outline-container-orgf700146" class="outline-3">
+<h3 id="orgf700146">12-01 TUE (Lecture)</h3>
+<div class="outline-text-3" id="text-orgf700146">
 <ul class="org-ul">
 <li>Week: 14</li>
 <li>Title: Linear Models</li>
@@ -1491,9 +1528,9 @@ labeled data</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org2b22d4c" class="outline-3">
-<h3 id="org2b22d4c">12-03 THU (Workshop)</h3>
-<div class="outline-text-3" id="text-org2b22d4c">
+<div id="outline-container-org0059e2d" class="outline-3">
+<h3 id="org0059e2d">12-03 THU (Workshop)</h3>
+<div class="outline-text-3" id="text-org0059e2d">
 <ul class="org-ul">
 <li>Week: 14</li>
 <li>Title: Quadratic Forms</li>
@@ -1533,18 +1570,18 @@ quadratic forms</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org35287ff" class="outline-3">
-<h3 id="org35287ff">12-07 MON (Quiz 5)</h3>
-<div class="outline-text-3" id="text-org35287ff">
+<div id="outline-container-orgb7c1127" class="outline-3">
+<h3 id="orgb7c1127">12-07 MON (Quiz 5)</h3>
+<div class="outline-text-3" id="text-orgb7c1127">
 <ul class="org-ul">
 <li>Week: 15</li>
 <li>Topics:</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orge46d22b" class="outline-3">
-<h3 id="orge46d22b">12-08 TUE (Lecture)</h3>
-<div class="outline-text-3" id="text-orge46d22b">
+<div id="outline-container-org99ba7f8" class="outline-3">
+<h3 id="org99ba7f8">12-08 TUE (Lecture)</h3>
+<div class="outline-text-3" id="text-org99ba7f8">
 <ul class="org-ul">
 <li>Week: 15</li>
 <li>Title: Singular Value Decomposition</li>
@@ -1575,9 +1612,9 @@ quadratic forms</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgdd7a4ca" class="outline-3">
-<h3 id="orgdd7a4ca">12-10 THU (Lecture)</h3>
-<div class="outline-text-3" id="text-orgdd7a4ca">
+<div id="outline-container-org8c4527a" class="outline-3">
+<h3 id="org8c4527a">12-10 THU (Lecture)</h3>
+<div class="outline-text-3" id="text-org8c4527a">
 <ul class="org-ul">
 <li>Week: 15</li>
 <li>Title: Applications of SVD</li>
@@ -1611,15 +1648,20 @@ parts" of the matrix</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org351eed3" class="outline-3">
-<h3 id="org351eed3">12-15 TUE (Final Exam)</h3>
-<div class="outline-text-3" id="text-org351eed3">
+<div id="outline-container-orgb74ebdd" class="outline-3">
+<h3 id="orgb74ebdd">12-15 TUE (Final Exam)</h3>
+<div class="outline-text-3" id="text-orgb74ebdd">
 <ul class="org-ul">
 <li>Topics:</li>
 </ul>
 </div>
 </div>
 </div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: ChienX19thGen</p>
+<p class="date">Created: 2026-11-22 Sun 22:31</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
 </html>
