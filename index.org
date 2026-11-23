@@ -67,7 +67,7 @@ Crovella]].
 |-------+-----------------------------------------+------------------------------------------+---|
 | [[*11-16 MON (Quiz 4)][11-16]] | Quiz 4                                  |                                          |   |
 | [[*11-17 TUE (Lecture)][11-17]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L20Orthogonality.html][Orthogonality]]                           |                                          |   |
-| [[*11-19 THU (Workshop)][11-19]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L21OrthogonalSets.html][Orthogonal Projection]] (Workshop)        | A10 out, A9 due                          |   |
+| [[*11-19 THU (Workshop)][11-19]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L21OrthogonalSets.html][Orthogonal Projection]] (Workshop)        | [[file:assignments/assign10.pdf][A10]] out, A9 due                          |   |
 |-------+-----------------------------------------+------------------------------------------+---|
 | [[*11-23 MON (Lab 5)][11-23]] | Lab 5: Matrix Decompositions            |                                          |   |
 | [[*11-24 TUE (Lecture)][11-24]] | [[http://mcrovella.github.io/CS132-Geometric-Algorithms/L22LeastSquares.html][Least Squares]]                           |                                          |   |
